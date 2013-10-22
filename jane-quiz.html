@@ -79,27 +79,43 @@
           </blockquote>
         </p>
     <!-- /quiz form start -->
+
       <form role="form" name="quiz-case-study-one">
-          
-          <div class="form-group">
-            <label>1) What is the baseline fetal heart rate?</label>
-             <div class="question-option">
-              <p><input type="radio" name="jq1"> 130</p>
-              <p><input type="radio" name="jq1"> 135</p>
-              <p><input type="radio" name="jq1"> 140</p>
-              <p><input type="radio" name="jq1"> 145</p>
-              <p><input type="radio" name="jq1"> 150</p>
-              <p><input type="radio" name="jq1"> Unable to determin</p>
+         
+         <div class="row featurette">
+            <div class="col-md-5">
+
+              <div class="form-group">
+                <label>1) What is the baseline fetal heart rate?</label>
+                 <div class="question-option">
+                  <p><input type="radio" name="jq1" value="130"> 130</p>
+                  <p><input type="radio" name="jq1" value="135"> 135</p>
+                  <p><input type="radio" name="jq1" value="140"> 140</p>
+                  <p><input type="radio" name="jq1" value="145"> 145</p>
+                  <p><input type="radio" name="jq1" value="150"> 150</p>
+                  <p><input type="radio" name="jq1" value="unable-to-determin"> Unable to determin</p>
+                </div>
+              </div>
+            </div> 
+
+            <div class="col-md-7">
+              <div id="result1"></div>
+              <div id="see-video">
+                   <object width="480" height="360"><param name="movie" value="http://www.youtube.com/v/rti7WusyIpY?hl=en_GB&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/rti7WusyIpY?hl=en_GB&amp;version=3" type="application/x-shockwave-flash" width="480" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object>  
+              </div>
             </div>
-          </div> 
+
+             
+           
+          </div>
 
           <div class="form-group">
             <label>2) What is the variability?</label>
               <div class="question-option">
-                <p><input type="radio" name="jq2"> Absent</p>
-                <p><input type="radio" name="jq2"> Minimal</p>
-                <p><input type="radio" name="jq2"> Moderate</p>
-                <p><input type="radio" name="jq2"> Marked</p>
+                <p><input type="radio" name="jq2" value="absent"> Absent</p>
+                <p><input type="radio" name="jq2" value="minimal"> Minimal</p>
+                <p><input type="radio" name="jq2" value="moderate"> Moderate</p>
+                <p><input type="radio" name="jq2" value="marked"> Marked</p>
               </div>  
           </div>  
 
