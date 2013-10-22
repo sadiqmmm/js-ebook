@@ -51,3 +51,7 @@ body { padding-top: 70px; }
 .sub-question-option {
 	 padding-left: 30px;
 }
+.padding-around-row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
