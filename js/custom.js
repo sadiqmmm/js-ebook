@@ -13,14 +13,14 @@ $(document).ready( function() {
 			$('.right-ans').remove();
 			$('.wrong-ans').remove();
 			$('.show').remove();
-			$('#result1').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><div class='show'>Click to (Show / Hide) Video</div></p>" );
+			$('#result1').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 		else{
 			 
 			$('.right-ans').remove();
 			$('.wrong-ans').remove();
 			$('.show').remove();
-			$('#result1').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <div class='show'>Click to (Show / Hide) Video</div></p>" );
+			$('#result1').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 
     });
@@ -28,7 +28,10 @@ $(document).ready( function() {
 	
 		 
 		$('#result1').on('click', '.show', function() {
-			$("#see-video").slideToggle('slow',function(){});
+			$("#see-video").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result1').offset().top -60}, 600);
+       				 return false;
+			});
 		});
 
     function getRadioValue () {
@@ -42,3 +45,4 @@ $(document).ready( function() {
 
 
 });
+
