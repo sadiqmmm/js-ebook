@@ -10,7 +10,7 @@ $(document).ready( function() {
     var radio_button_value_jq7 = getRadioValuejq7();
     var radio_button_value_jq8 = getRadioValuejq8();
 
-    
+ 
 
 
     $('#quiz-case-study-one').submit( function( event ) {
@@ -43,14 +43,14 @@ $(document).ready( function() {
 			$('#result-jq1 .right-ans').remove();
 			$('#result-jq1 .wrong-ans').remove();
 			$('#result-jq1 .show').remove();
-			$('#result-jq1').append( "<p class='right-ans alert alert-success'><strong>(1) Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq1').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 		else{
 			 
 			$('#result-jq1 .right-ans').remove();
 			$('#result-jq1 .wrong-ans').remove();
 			$('#result-jq1 .show').remove();
-			$('#result-jq1').append( "<p class='wrong-ans alert alert-danger'><strong>(1) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq1').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 
 		    // jq2
@@ -59,14 +59,14 @@ $(document).ready( function() {
 			$('#result-jq2 .right-ans').remove();
 			$('#result-jq2 .wrong-ans').remove();
 			$('#result-jq2 .show').remove();
-			$('#result-jq2').append( "<p class='right-ans alert alert-success'><strong>(2) Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq2').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 		else{
 			 
 			$('#result-jq2 .right-ans').remove();
 			$('#result-jq2 .wrong-ans').remove();
 			$('#result-jq2 .show').remove();
-			$('#result-jq2').append( "<p class='wrong-ans alert alert-danger'><strong>(2) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq2').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 
 		// jq3
@@ -75,14 +75,14 @@ $(document).ready( function() {
 			$('#result-jq3 .right-ans').remove();
 			$('#result-jq3 .wrong-ans').remove();
 			$('#result-jq3 .show').remove();
-			$('#result-jq3').append( "<p class='right-ans alert alert-success'><strong>(3) Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq3').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 		else{
 			 
 			$('#result-jq3 .right-ans').remove();
 			$('#result-jq3 .wrong-ans').remove();
 			$('#result-jq3 .show').remove();
-			$('#result-jq3').append( "<p class='wrong-ans alert alert-danger'><strong>(3) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq3').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 
 		// jq4
@@ -91,14 +91,14 @@ $(document).ready( function() {
 			$('#result-jq4 .right-ans').remove();
 			$('#result-jq4 .wrong-ans').remove();
 			$('#result-jq4 .show').remove();
-			$('#result-jq4').append( "<p class='right-ans alert alert-success'><strong>(4) Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq4').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 		else{
 			 
 			$('#result-jq4 .right-ans').remove();
 			$('#result-jq4 .wrong-ans').remove();
 			$('#result-jq4 .show').remove();
-			$('#result-jq4').append( "<p class='wrong-ans alert alert-danger'><strong>(4) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq4').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 
 
@@ -108,14 +108,14 @@ $(document).ready( function() {
 			$('#result-jq5 .right-ans').remove();
 			$('#result-jq5 .wrong-ans').remove();
 			$('#result-jq5 .show').remove();
-			$('#result-jq5').append( "<p class='right-ans alert alert-success'><strong>(5) Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq5').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 		else{
 			 
 			$('#result-jq5 .right-ans').remove();
 			$('#result-jq5 .wrong-ans').remove();
 			$('#result-jq5 .show').remove();
-			$('#result-jq5').append( "<p class='wrong-ans alert alert-danger'><strong>(5) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq5').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 
 
@@ -125,14 +125,14 @@ $(document).ready( function() {
 			$('#result-jq6 .right-ans').remove();
 			$('#result-jq6 .wrong-ans').remove();
 			$('#result-jq6 .show').remove();
-			$('#result-jq6').append( "<p class='right-ans alert alert-success'><strong>(6) Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq6').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 		else{
 			 
 			$('#result-jq6 .right-ans').remove();
 			$('#result-jq6 .wrong-ans').remove();
 			$('#result-jq6 .show').remove();
-			$('#result-jq6').append( "<p class='wrong-ans alert alert-danger'><strong>(6) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq6').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 
 
@@ -142,14 +142,14 @@ $(document).ready( function() {
 			$('#result-jq7 .right-ans').remove();
 			$('#result-jq7 .wrong-ans').remove();
 			$('#result-jq7 .show').remove();
-			$('#result-jq7').append( "<p class='right-ans alert alert-success'><strong>(7) Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq7').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 		else{
 			 
 			$('#result-jq7 .right-ans').remove();
 			$('#result-jq7 .wrong-ans').remove();
 			$('#result-jq7 .show').remove();
-			$('#result-jq7').append( "<p class='wrong-ans alert alert-danger'><strong>(7) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq7').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 
 		// jq8
@@ -158,14 +158,14 @@ $(document).ready( function() {
 			$('#result-jq8 .right-ans').remove();
 			$('#result-jq8 .wrong-ans').remove();
 			$('#result-jq8 .show').remove();
-			$('#result-jq8').append( "<p class='right-ans alert alert-success'><strong>(8) Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq8').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 		else{
 			 
 			$('#result-jq8 .right-ans').remove();
 			$('#result-jq8 .wrong-ans').remove();
 			$('#result-jq8 .show').remove();
-			$('#result-jq8').append( "<p class='wrong-ans alert alert-danger'><strong>(8) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq8').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 
  
