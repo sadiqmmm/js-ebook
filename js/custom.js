@@ -3,17 +3,19 @@ $(document).ready( function() {
     // Will return 0 the first time it's called
     var radio_button_value_jq1 = getRadioValuejq1();
     var radio_button_value_jq2 = getRadioValuejq2();
+    var radio_button_value_jq3 = getRadioValuejq3();
 
     
 
 
     $('#quiz-case-study-one').submit( function( event ) {
-         
+        $("html, body").animate({ scrollTop: $('#quiz-case-study-one').offset().top -60}, 600);
         event.preventDefault(); // Prevent from default submit button behaviour
 
  		// Will get the newly selected value
         radio_button_value_jq1 = getRadioValuejq1();    
-        radio_button_value_jq2 = getRadioValuejq2();       
+        radio_button_value_jq2 = getRadioValuejq2();
+        radio_button_value_jq3 = getRadioValuejq3();       
 
         // jq1
         if(radio_button_value_jq1 == 135) {
@@ -47,6 +49,22 @@ $(document).ready( function() {
 			$('#result-jq2').append( "<p class='wrong-ans alert alert-danger'><strong>(2) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 
+		// jq3
+        if(radio_button_value_jq3 == "no") {
+			 
+			$('#result-jq3 .right-ans').remove();
+			$('#result-jq3 .wrong-ans').remove();
+			$('#result-jq3 .show').remove();
+			$('#result-jq3').append( "<p class='right-ans alert alert-success'><strong>(3) Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq3 .right-ans').remove();
+			$('#result-jq3 .wrong-ans').remove();
+			$('#result-jq3 .show').remove();
+			$('#result-jq3').append( "<p class='wrong-ans alert alert-danger'><strong>(3) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+		}
+
  
 
     });
@@ -55,6 +73,7 @@ $(document).ready( function() {
 
 	$("#see-video-jq1").hide(); 
 	$("#see-video-jq2").hide(); 
+	$("#see-video-jq3").hide(); 
 	
 		 
 		$('#result-jq1').on('click', '.show', function() {
@@ -71,6 +90,13 @@ $(document).ready( function() {
 			});
 		});
 
+		$('#result-jq3').on('click', '.show', function() {
+			$("#see-video-jq3").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq3').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
     function getRadioValuejq1 () {
 	    if( $('input[name=jq1]:radio:checked').length > 0 ) {
 	        return $('input[name=jq1]:radio:checked').val();
@@ -79,6 +105,7 @@ $(document).ready( function() {
 	        return 0;
 	    }
 	}
+	
 	function getRadioValuejq2 () {
 	    if( $('input[name=jq2]:radio:checked').length > 0 ) {
 	        return $('input[name=jq2]:radio:checked').val();
@@ -87,7 +114,14 @@ $(document).ready( function() {
 	        return 0;
 	    }
 	}
-
+	function getRadioValuejq3 () {
+	    if( $('input[name=jq3]:radio:checked').length > 0 ) {
+	        return $('input[name=jq3]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
 
 });
 
