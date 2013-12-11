@@ -13,6 +13,15 @@ $(document).ready( function() {
 
 
     $('#quiz-case-study-one').submit( function( event ) {
+    	
+    	$("#see-video-jq1").hide(); 
+		$("#see-video-jq2").hide(); 
+		$("#see-video-jq3").hide(); 
+		$("#see-video-jq4").hide(); 
+		$("#see-video-jq5").hide(); 
+		$("#see-video-jq6").hide(); 
+		$("#see-video-jq7").hide(); 
+
         $("html, body").animate({ scrollTop: $('#quiz-case-study-one').offset().top -60}, 600);
         event.preventDefault(); // Prevent from default submit button behaviour
 
