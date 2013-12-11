@@ -10,10 +10,16 @@ $(document).ready( function() {
     var radio_button_value_jq7 = getRadioValuejq7();
     var radio_button_value_jq8 = getRadioValuejq8();
 
- 
 
+   
 
     $('#quiz-case-study-one').submit( function( event ) {
+
+     	var q_total = 0;
+        var q_correct = 0;
+      
+      console.log("start: " + q_correct);
+
 
     	$("#see-video-jq1").hide(); 
 		$("#see-video-jq2").hide(); 
@@ -39,7 +45,8 @@ $(document).ready( function() {
 
         // jq1
         if(radio_button_value_jq1 == 135) {
-			 
+			 q_correct++;
+
 			$('#result-jq1 .right-ans').remove();
 			$('#result-jq1 .wrong-ans').remove();
 			$('#result-jq1 .show').remove();
@@ -55,7 +62,8 @@ $(document).ready( function() {
 
 		    // jq2
         if(radio_button_value_jq2 == "absent") {
-			 
+			  q_correct++;
+
 			$('#result-jq2 .right-ans').remove();
 			$('#result-jq2 .wrong-ans').remove();
 			$('#result-jq2 .show').remove();
@@ -71,7 +79,8 @@ $(document).ready( function() {
 
 		// jq3
         if(radio_button_value_jq3 == "no") {
-			 
+			  q_correct++;
+
 			$('#result-jq3 .right-ans').remove();
 			$('#result-jq3 .wrong-ans').remove();
 			$('#result-jq3 .show').remove();
@@ -87,7 +96,8 @@ $(document).ready( function() {
 
 		// jq4
         if(radio_button_value_jq4 == 1) {
-			 
+			  q_correct++;
+
 			$('#result-jq4 .right-ans').remove();
 			$('#result-jq4 .wrong-ans').remove();
 			$('#result-jq4 .show').remove();
@@ -104,7 +114,8 @@ $(document).ready( function() {
 
 		// jq5
         if(radio_button_value_jq5 == 1) {
-			 
+			  q_correct++;
+
 			$('#result-jq5 .right-ans').remove();
 			$('#result-jq5 .wrong-ans').remove();
 			$('#result-jq5 .show').remove();
@@ -121,7 +132,8 @@ $(document).ready( function() {
 
 		// jq6
         if(radio_button_value_jq6 == 1) {
-			 
+			  q_correct++;
+
 			$('#result-jq6 .right-ans').remove();
 			$('#result-jq6 .wrong-ans').remove();
 			$('#result-jq6 .show').remove();
@@ -138,7 +150,8 @@ $(document).ready( function() {
 
 		// jq7
         if(radio_button_value_jq7 == 1) {
-			 
+			  q_correct++;
+
 			$('#result-jq7 .right-ans').remove();
 			$('#result-jq7 .wrong-ans').remove();
 			$('#result-jq7 .show').remove();
@@ -154,7 +167,7 @@ $(document).ready( function() {
 
 		// jq8
         if(radio_button_value_jq8 == 1) {
-			 
+			  q_correct++;
 			$('#result-jq8 .right-ans').remove();
 			$('#result-jq8 .wrong-ans').remove();
 			$('#result-jq8 .show').remove();
@@ -168,8 +181,9 @@ $(document).ready( function() {
 			$('#result-jq8').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 
- 
-
+		$('.m_r_r').remove();
+ 		  
+        $('#quiz-result-message').append( "<p class='m_r_r alert alert-success'><strong>"+ q_correct +" Correct Answer out of 8&nbsp; &nbsp;</strong> </p>" );
     });
 
 
