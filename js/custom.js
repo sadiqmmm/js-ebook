@@ -4,6 +4,10 @@ $(document).ready( function() {
     var radio_button_value_jq1 = getRadioValuejq1();
     var radio_button_value_jq2 = getRadioValuejq2();
     var radio_button_value_jq3 = getRadioValuejq3();
+    var radio_button_value_jq4 = getRadioValuejq4();
+    var radio_button_value_jq5 = getRadioValuejq5();
+    var radio_button_value_jq6 = getRadioValuejq6();
+    var radio_button_value_jq7 = getRadioValuejq7();
 
     
 
@@ -15,7 +19,11 @@ $(document).ready( function() {
  		// Will get the newly selected value
         radio_button_value_jq1 = getRadioValuejq1();    
         radio_button_value_jq2 = getRadioValuejq2();
-        radio_button_value_jq3 = getRadioValuejq3();       
+        radio_button_value_jq3 = getRadioValuejq3();  
+        radio_button_value_jq4 = getRadioValuejq4();  
+        radio_button_value_jq5 = getRadioValuejq5();  
+        radio_button_value_jq6 = getRadioValuejq6();  
+        radio_button_value_jq7 = getRadioValuejq7();       
 
         // jq1
         if(radio_button_value_jq1 == 135) {
@@ -65,6 +73,73 @@ $(document).ready( function() {
 			$('#result-jq3').append( "<p class='wrong-ans alert alert-danger'><strong>(3) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
 		}
 
+		// jq4
+        if(radio_button_value_jq4 == 1) {
+			 
+			$('#result-jq4 .right-ans').remove();
+			$('#result-jq4 .wrong-ans').remove();
+			$('#result-jq4 .show').remove();
+			$('#result-jq4').append( "<p class='right-ans alert alert-success'><strong>(4) Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq4 .right-ans').remove();
+			$('#result-jq4 .wrong-ans').remove();
+			$('#result-jq4 .show').remove();
+			$('#result-jq4').append( "<p class='wrong-ans alert alert-danger'><strong>(4) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+		}
+
+
+		// jq5
+        if(radio_button_value_jq5 == 1) {
+			 
+			$('#result-jq5 .right-ans').remove();
+			$('#result-jq5 .wrong-ans').remove();
+			$('#result-jq5 .show').remove();
+			$('#result-jq5').append( "<p class='right-ans alert alert-success'><strong>(5) Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq5 .right-ans').remove();
+			$('#result-jq5 .wrong-ans').remove();
+			$('#result-jq5 .show').remove();
+			$('#result-jq5').append( "<p class='wrong-ans alert alert-danger'><strong>(5) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+		}
+
+
+		// jq6
+        if(radio_button_value_jq6 == 1) {
+			 
+			$('#result-jq6 .right-ans').remove();
+			$('#result-jq6 .wrong-ans').remove();
+			$('#result-jq6 .show').remove();
+			$('#result-jq6').append( "<p class='right-ans alert alert-success'><strong>(6) Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq6 .right-ans').remove();
+			$('#result-jq6 .wrong-ans').remove();
+			$('#result-jq6 .show').remove();
+			$('#result-jq6').append( "<p class='wrong-ans alert alert-danger'><strong>(6) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+		}
+
+
+		// jq7
+        if(radio_button_value_jq7 == 1) {
+			 
+			$('#result-jq7 .right-ans').remove();
+			$('#result-jq7 .wrong-ans').remove();
+			$('#result-jq7 .show').remove();
+			$('#result-jq7').append( "<p class='right-ans alert alert-success'><strong>(7) Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq7 .right-ans').remove();
+			$('#result-jq7 .wrong-ans').remove();
+			$('#result-jq7 .show').remove();
+			$('#result-jq7').append( "<p class='wrong-ans alert alert-danger'><strong>(7) Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+		}
+
  
 
     });
@@ -74,6 +149,10 @@ $(document).ready( function() {
 	$("#see-video-jq1").hide(); 
 	$("#see-video-jq2").hide(); 
 	$("#see-video-jq3").hide(); 
+	$("#see-video-jq4").hide(); 
+	$("#see-video-jq5").hide(); 
+	$("#see-video-jq6").hide(); 
+	$("#see-video-jq7").hide(); 
 	
 		 
 		$('#result-jq1').on('click', '.show', function() {
@@ -93,6 +172,32 @@ $(document).ready( function() {
 		$('#result-jq3').on('click', '.show', function() {
 			$("#see-video-jq3").slideToggle('slow',function(){
 					$("html, body").animate({ scrollTop: $('#result-jq3').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
+		$('#result-jq4').on('click', '.show', function() {
+			$("#see-video-jq4").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq4').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
+		$('#result-jq5').on('click', '.show', function() {
+			$("#see-video-jq5").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq5').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+		$('#result-jq6').on('click', '.show', function() {
+			$("#see-video-jq6").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq6').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+		$('#result-jq7').on('click', '.show', function() {
+			$("#see-video-jq7").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq7').offset().top -60}, 600);
        				 return false;
 			});
 		});
@@ -122,6 +227,42 @@ $(document).ready( function() {
 	        return 0;
 	    }
 	}
+	function getRadioValuejq4 () {
+	    if( $('input[name=jq4]:radio:checked').length > 0 ) {
+	        return $('input[name=jq4]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+
+	function getRadioValuejq5 () {
+	    if( $('input[name=jq5]:radio:checked').length > 0 ) {
+	        return $('input[name=jq5]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+
+	function getRadioValuejq6 () {
+	    if( $('input[name=jq6]:radio:checked').length > 0 ) {
+	        return $('input[name=jq6]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+
+	function getRadioValuejq7 () {
+	    if( $('input[name=jq7]:radio:checked').length > 0 ) {
+	        return $('input[name=jq7]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+
 
 });
 
