@@ -84,14 +84,14 @@ $(document).ready( function() {
 			$('#result-jq3 .right-ans').remove();
 			$('#result-jq3 .wrong-ans').remove();
 			$('#result-jq3 .show').remove();
-			$('#result-jq3').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq3').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Answer</span></p>" );
 		}
 		else{
 			 
 			$('#result-jq3 .right-ans').remove();
 			$('#result-jq3 .wrong-ans').remove();
 			$('#result-jq3 .show').remove();
-			$('#result-jq3').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq3').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
 		}
 
 		// jq4
@@ -137,14 +137,14 @@ $(document).ready( function() {
 			$('#result-jq6 .right-ans').remove();
 			$('#result-jq6 .wrong-ans').remove();
 			$('#result-jq6 .show').remove();
-			$('#result-jq6').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq6').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Answer</span></p>" );
 		}
 		else{
 			 
 			$('#result-jq6 .right-ans').remove();
 			$('#result-jq6 .wrong-ans').remove();
 			$('#result-jq6 .show').remove();
-			$('#result-jq6').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq6').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
 		}
 
 
@@ -155,14 +155,14 @@ $(document).ready( function() {
 			$('#result-jq7 .right-ans').remove();
 			$('#result-jq7 .wrong-ans').remove();
 			$('#result-jq7 .show').remove();
-			$('#result-jq7').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq7').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Answer</span></p>" );
 		}
 		else{
 			 
 			$('#result-jq7 .right-ans').remove();
 			$('#result-jq7 .wrong-ans').remove();
 			$('#result-jq7 .show').remove();
-			$('#result-jq7').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq7').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
 		}
 
 		// jq8
@@ -171,14 +171,14 @@ $(document).ready( function() {
 			$('#result-jq8 .right-ans').remove();
 			$('#result-jq8 .wrong-ans').remove();
 			$('#result-jq8 .show').remove();
-			$('#result-jq8').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq8').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Answer</span></p>" );
 		}
 		else{
 			 
 			$('#result-jq8 .right-ans').remove();
 			$('#result-jq8 .wrong-ans').remove();
 			$('#result-jq8 .show').remove();
-			$('#result-jq8').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq8').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
 		}
 
 		$('.m_r_r').remove();
