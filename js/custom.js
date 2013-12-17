@@ -50,14 +50,14 @@ $(document).ready( function() {
 			$('#result-jq1 .right-ans').remove();
 			$('#result-jq1 .wrong-ans').remove();
 			$('#result-jq1 .show').remove();
-			$('#result-jq1').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq1').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to (Show / Hides) Video</span></p>" );
 		}
 		else{
 			 
 			$('#result-jq1 .right-ans').remove();
 			$('#result-jq1 .wrong-ans').remove();
 			$('#result-jq1 .show').remove();
-			$('#result-jq1').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+			$('#result-jq1').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Video</span><span class='glyphicon glyphicon-facetime-video'></span></p>" );
 		}
 
 		    // jq2
