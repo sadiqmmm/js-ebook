@@ -71,3 +71,7 @@ body { padding-top: 70px; }
   background: #F4F0E6;
   padding: 20px; 
 }
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
