@@ -45,6 +45,23 @@ $(document).ready( function() {
 		$("#see-video-jq7").hide(); 
 		$("#see-video-jq8").hide(); 
 
+		$("#see-video-jq9").hide(); 
+		$("#see-video-jq10").hide(); 
+		$("#see-video-jq11").hide(); 
+		$("#see-video-jq12").hide(); 
+		$("#see-video-jq13").hide(); 
+		$("#see-video-jq14").hide(); 
+		$("#see-video-jq15").hide(); 
+		$("#see-video-jq16").hide();
+
+		$("#see-video-jq17").hide(); 
+		$("#see-video-jq18").hide(); 
+		$("#see-video-jq19").hide(); 
+		$("#see-video-jq20").hide(); 
+		$("#see-video-jq21").hide(); 
+		$("#see-video-jq22").hide(); 
+ 
+
         $("html, body").animate({ scrollTop: $('#quiz-case-study-one').offset().top -60}, 600);
         event.preventDefault(); // Prevent from default submit button behaviour
 
@@ -57,6 +74,23 @@ $(document).ready( function() {
         radio_button_value_jq6 = getRadioValuejq6();  
         radio_button_value_jq7 = getRadioValuejq7();      
         radio_button_value_jq8 = getRadioValuejq8();       
+
+        radio_button_value_jq9 = getRadioValuejq9();    
+        radio_button_value_jq10 = getRadioValuejq10();
+        radio_button_value_jq11 = getRadioValuejq11();  
+        radio_button_value_jq12 = getRadioValuejq12();  
+        radio_button_value_jq13 = getRadioValuejq13();  
+        radio_button_value_jq14 = getRadioValuejq14();  
+        radio_button_value_jq15 = getRadioValuejq15();      
+        radio_button_value_jq16 = getRadioValuejq16();   
+
+        radio_button_value_jq17 = getRadioValuejq17();    
+        radio_button_value_jq18 = getRadioValuejq18();
+        radio_button_value_jq19 = getRadioValuejq19();  
+        radio_button_value_jq20 = getRadioValuejq20();  
+        radio_button_value_jq21 = getRadioValuejq21();  
+        radio_button_value_jq22 = getRadioValuejq22();  
+   
 
         // jq1
         if(radio_button_value_jq1 == 1) {
