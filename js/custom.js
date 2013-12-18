@@ -11,6 +11,23 @@ $(document).ready( function() {
     var radio_button_value_jq7 = getRadioValuejq7();
     var radio_button_value_jq8 = getRadioValuejq8();
 
+    var radio_button_value_jq9 = getRadioValuejq9();
+    var radio_button_value_jq10 = getRadioValuejq10();
+    var radio_button_value_jq11 = getRadioValuejq11();
+    var radio_button_value_jq12 = getRadioValuejq12();
+    var radio_button_value_jq13 = getRadioValuejq13();
+    var radio_button_value_jq14 = getRadioValuejq14();
+    var radio_button_value_jq15 = getRadioValuejq15();
+    var radio_button_value_jq16 = getRadioValuejq16();
+
+    var radio_button_value_jq17 = getRadioValuejq17();
+    var radio_button_value_jq18 = getRadioValuejq18();
+    var radio_button_value_jq19 = getRadioValuejq19();
+    var radio_button_value_jq20 = getRadioValuejq20();
+    var radio_button_value_jq21 = getRadioValuejq21();
+    var radio_button_value_jq22 = getRadioValuejq22();
+ 
+
 
    
 
@@ -76,7 +93,7 @@ $(document).ready( function() {
 		}
 
 		// jq3
-        if(radio_button_value_jq3 == "1") {
+        if(radio_button_value_jq3 == 1) {
 			  q_correct++;
 
 			$('#result-jq3 .right-ans').remove();
@@ -179,9 +196,256 @@ $(document).ready( function() {
 			$('#result-jq8').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
 		}
 
+
+
+		// temp start
+
+		// jq9
+        if(radio_button_value_jq9 == 1) {
+			  q_correct++;
+
+			$('#result-jq9 .right-ans').remove();
+			$('#result-jq9 .wrong-ans').remove();
+			$('#result-jq9 .show').remove();
+			$('#result-jq9').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq9 .right-ans').remove();
+			$('#result-jq9 .wrong-ans').remove();
+			$('#result-jq9 .show').remove();
+			$('#result-jq9').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+
+		// jq10
+        if(radio_button_value_jq10 == 1) {
+			  q_correct++;
+
+			$('#result-jq10 .right-ans').remove();
+			$('#result-jq10 .wrong-ans').remove();
+			$('#result-jq10 .show').remove();
+			$('#result-jq10').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq10 .right-ans').remove();
+			$('#result-jq10 .wrong-ans').remove();
+			$('#result-jq10 .show').remove();
+			$('#result-jq10').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+
+		// jq11
+        if(radio_button_value_jq11 == 1) {
+			  q_correct++;
+
+			$('#result-jq11 .right-ans').remove();
+			$('#result-jq11 .wrong-ans').remove();
+			$('#result-jq11 .show').remove();
+			$('#result-jq11').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq11 .right-ans').remove();
+			$('#result-jq11 .wrong-ans').remove();
+			$('#result-jq11 .show').remove();
+			$('#result-jq11').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+
+		// jq12
+        if(radio_button_value_jq12 == 1) {
+			  q_correct++;
+
+			$('#result-jq12 .right-ans').remove();
+			$('#result-jq12 .wrong-ans').remove();
+			$('#result-jq12 .show').remove();
+			$('#result-jq12').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq12 .right-ans').remove();
+			$('#result-jq12 .wrong-ans').remove();
+			$('#result-jq12 .show').remove();
+			$('#result-jq12').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+
+		// jq13
+        if(radio_button_value_jq13 == 1) {
+			  q_correct++;
+
+			$('#result-jq13 .right-ans').remove();
+			$('#result-jq13 .wrong-ans').remove();
+			$('#result-jq13 .show').remove();
+			$('#result-jq13').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq13 .right-ans').remove();
+			$('#result-jq13 .wrong-ans').remove();
+			$('#result-jq13 .show').remove();
+			$('#result-jq13').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+
+		// jq14
+        if(radio_button_value_jq14 == 1) {
+			  q_correct++;
+
+			$('#result-jq14 .right-ans').remove();
+			$('#result-jq14 .wrong-ans').remove();
+			$('#result-jq14 .show').remove();
+			$('#result-jq14').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq14 .right-ans').remove();
+			$('#result-jq14 .wrong-ans').remove();
+			$('#result-jq14 .show').remove();
+			$('#result-jq14').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+
+		// jq15
+        if(radio_button_value_jq15 == 1) {
+			  q_correct++;
+
+			$('#result-jq15 .right-ans').remove();
+			$('#result-jq15 .wrong-ans').remove();
+			$('#result-jq15 .show').remove();
+			$('#result-jq15').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq15 .right-ans').remove();
+			$('#result-jq15 .wrong-ans').remove();
+			$('#result-jq15 .show').remove();
+			$('#result-jq15').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+
+		// jq16
+        if(radio_button_value_jq16 == 1) {
+			  q_correct++;
+
+			$('#result-jq16 .right-ans').remove();
+			$('#result-jq16 .wrong-ans').remove();
+			$('#result-jq16 .show').remove();
+			$('#result-jq16').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq16 .right-ans').remove();
+			$('#result-jq16 .wrong-ans').remove();
+			$('#result-jq16 .show').remove();
+			$('#result-jq16').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+
+		// jq17
+        if(radio_button_value_jq17 == 1) {
+			  q_correct++;
+
+			$('#result-jq17 .right-ans').remove();
+			$('#result-jq17 .wrong-ans').remove();
+			$('#result-jq17 .show').remove();
+			$('#result-jq17').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq17 .right-ans').remove();
+			$('#result-jq17 .wrong-ans').remove();
+			$('#result-jq17 .show').remove();
+			$('#result-jq17').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+
+		// jq18
+        if(radio_button_value_jq18 == 1) {
+			  q_correct++;
+
+			$('#result-jq18 .right-ans').remove();
+			$('#result-jq18 .wrong-ans').remove();
+			$('#result-jq18 .show').remove();
+			$('#result-jq18').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq18 .right-ans').remove();
+			$('#result-jq18 .wrong-ans').remove();
+			$('#result-jq18 .show').remove();
+			$('#result-jq18').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+
+		// jq19
+        if(radio_button_value_jq19 == 1) {
+			  q_correct++;
+
+			$('#result-jq19 .right-ans').remove();
+			$('#result-jq19 .wrong-ans').remove();
+			$('#result-jq19 .show').remove();
+			$('#result-jq19').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq19 .right-ans').remove();
+			$('#result-jq19 .wrong-ans').remove();
+			$('#result-jq19 .show').remove();
+			$('#result-jq19').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+
+		// jq20
+        if(radio_button_value_jq20 == 1) {
+			  q_correct++;
+
+			$('#result-jq20 .right-ans').remove();
+			$('#result-jq20 .wrong-ans').remove();
+			$('#result-jq20 .show').remove();
+			$('#result-jq20').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq20 .right-ans').remove();
+			$('#result-jq20 .wrong-ans').remove();
+			$('#result-jq20 .show').remove();
+			$('#result-jq20').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+
+		// jq21
+        if(radio_button_value_jq21 == 1) {
+			 q_correct++;
+
+			$('#result-jq21 .right-ans').remove();
+			$('#result-jq21 .wrong-ans').remove();
+			$('#result-jq21 .show').remove();
+			$('#result-jq21').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-facetime-video'></span><span class='show'>Click to (Show / Hides) Video</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq21 .right-ans').remove();
+			$('#result-jq21 .wrong-ans').remove();
+			$('#result-jq21 .show').remove();
+			$('#result-jq21').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-facetime-video'></span> <span class='show'>Click to (Show / Hide) Video</span></p>" );
+		}
+
+		// jq22
+        if(radio_button_value_jq22 == 1) {
+			  q_correct++;
+
+			$('#result-jq22 .right-ans').remove();
+			$('#result-jq22 .wrong-ans').remove();
+			$('#result-jq22 .show').remove();
+			$('#result-jq22').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span><span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+		else{
+			 
+			$('#result-jq22 .right-ans').remove();
+			$('#result-jq22 .wrong-ans').remove();
+			$('#result-jq22 .show').remove();
+			$('#result-jq22').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='glyphicon glyphicon-font'></span> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
+		}
+
+		// temp end
+
+
+
+
 		$('.m_r_r').remove();
  		  
-        $('#quiz-result-message').append( "<p class='m_r_r alert alert-success'><strong>"+ q_correct +" Correct Answer out of 8&nbsp; &nbsp;</strong> </p>" );
+        $('#quiz-result-message').append( "<p class='m_r_r alert alert-success'><strong>"+ q_correct +" Correct Answer out of 22 &nbsp; &nbsp;</strong> </p>" );
     });
 
 
@@ -194,6 +458,23 @@ $(document).ready( function() {
 	$("#see-video-jq6").hide(); 
 	$("#see-video-jq7").hide(); 
 	$("#see-video-jq8").hide(); 
+	
+	$("#see-video-jq9").hide(); 
+	$("#see-video-jq10").hide(); 
+	$("#see-video-jq11").hide(); 
+	$("#see-video-jq12").hide(); 
+	$("#see-video-jq13").hide(); 
+	$("#see-video-jq14").hide(); 
+	$("#see-video-jq15").hide(); 
+	$("#see-video-jq16").hide(); 
+	
+	$("#see-video-jq17").hide(); 
+	$("#see-video-jq18").hide(); 
+	$("#see-video-jq19").hide(); 
+	$("#see-video-jq20").hide(); 
+	$("#see-video-jq21").hide(); 
+	$("#see-video-jq22").hide(); 
+ 
 	
 		 
 		$('#result-jq1').on('click', '.show', function() {
@@ -248,7 +529,106 @@ $(document).ready( function() {
        				 return false;
 			});
 		});
+		// temp start
+		$('#result-jq9').on('click', '.show', function() {
+			$("#see-video-jq9").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq9').offset().top -60}, 600);
+       				 return false;
+			});
+		});	
+		$('#result-jq10').on('click', '.show', function() {
+			$("#see-video-jq10").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq10').offset().top -60}, 600);
+       				 return false;
+			});
+		});	
 
+		$('#result-jq11').on('click', '.show', function() {
+			$("#see-video-jq11").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq11').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
+		$('#result-jq12').on('click', '.show', function() {
+			$("#see-video-jq12").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq12').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
+		$('#result-jq13').on('click', '.show', function() {
+			$("#see-video-jq13").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq13').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
+		$('#result-jq14').on('click', '.show', function() {
+			$("#see-video-jq14").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq14').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
+		$('#result-jq15').on('click', '.show', function() {
+			$("#see-video-jq15").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq15').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
+		$('#result-jq16').on('click', '.show', function() {
+			$("#see-video-jq16").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq16').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
+		$('#result-jq17').on('click', '.show', function() {
+			$("#see-video-jq17").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq17').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
+		$('#result-jq18').on('click', '.show', function() {
+			$("#see-video-jq18").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq18').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
+		$('#result-jq19').on('click', '.show', function() {
+			$("#see-video-jq19").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq19').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
+		$('#result-jq20').on('click', '.show', function() {
+			$("#see-video-jq20").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq20').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
+		$('#result-jq21').on('click', '.show', function() {
+			$("#see-video-jq21").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq21').offset().top -60}, 600);
+       				 return false;
+			});
+		});
+
+		$('#result-jq22').on('click', '.show', function() {
+			$("#see-video-jq22").slideToggle('slow',function(){
+					$("html, body").animate({ scrollTop: $('#result-jq22').offset().top -60}, 600);
+       				 return false;
+			});
+		});		
+
+
+		// temp end
     function getRadioValuejq1 () {
 	    if( $('input[name=jq1]:radio:checked').length > 0 ) {
 	        return $('input[name=jq1]:radio:checked').val();
@@ -318,6 +698,123 @@ $(document).ready( function() {
 	        return 0;
 	    }
 	}
+	// temp start
+	function getRadioValuejq9 () {
+	    if( $('input[name=jq9]:radio:checked').length > 0 ) {
+	        return $('input[name=jq9]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getRadioValuejq10 () {
+	    if( $('input[name=jq10]:radio:checked').length > 0 ) {
+	        return $('input[name=jq10]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getRadioValuejq11 () {
+	    if( $('input[name=jq11]:radio:checked').length > 0 ) {
+	        return $('input[name=jq11]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getRadioValuejq12 () {
+	    if( $('input[name=jq12]:radio:checked').length > 0 ) {
+	        return $('input[name=jq12]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getRadioValuejq13 () {
+	    if( $('input[name=jq13]:radio:checked').length > 0 ) {
+	        return $('input[name=jq13]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getRadioValuejq14 () {
+	    if( $('input[name=jq14]:radio:checked').length > 0 ) {
+	        return $('input[name=jq14]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getRadioValuejq15 () {
+	    if( $('input[name=jq15]:radio:checked').length > 0 ) {
+	        return $('input[name=jq15]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getRadioValuejq16 () {
+	    if( $('input[name=jq16]:radio:checked').length > 0 ) {
+	        return $('input[name=jq16]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getRadioValuejq17 () {
+	    if( $('input[name=jq17]:radio:checked').length > 0 ) {
+	        return $('input[name=jq17]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getRadioValuejq18 () {
+	    if( $('input[name=jq18]:radio:checked').length > 0 ) {
+	        return $('input[name=jq18]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getRadioValuejq19 () {
+	    if( $('input[name=jq19]:radio:checked').length > 0 ) {
+	        return $('input[name=jq19]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getRadioValuejq20 () {
+	    if( $('input[name=jq20]:radio:checked').length > 0 ) {
+	        return $('input[name=jq20]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getRadioValuejq21 () {
+	    if( $('input[name=jq21]:radio:checked').length > 0 ) {
+	        return $('input[name=jq21]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getRadioValuejq22 () {
+	    if( $('input[name=jq22]:radio:checked').length > 0 ) {
+	        return $('input[name=jq22]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
 
+	// temp end
+
+
+	// final end
 });
 
