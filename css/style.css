@@ -75,3 +75,6 @@ video {
   width: 100%    !important;
   height: auto   !important;
 }
+.glyphicon {
+  font-size: 30px;
+}
