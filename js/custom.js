@@ -1,4 +1,5 @@
 $(document).ready( function() {
+ 
     // Value when you load the page for the first time
     // Will return 0 the first time it's called
     var radio_button_value_jq1 = getRadioValuejq1();
@@ -41,7 +42,7 @@ $(document).ready( function() {
         radio_button_value_jq8 = getRadioValuejq8();       
 
         // jq1
-        if(radio_button_value_jq1 == 135) {
+        if(radio_button_value_jq1 == 1) {
 			 q_correct++;
 
 			$('#result-jq1 .right-ans').remove();
@@ -58,7 +59,7 @@ $(document).ready( function() {
 		}
 
 		    // jq2
-        if(radio_button_value_jq2 == "absent") {
+        if(radio_button_value_jq2 == 1) {
 			  q_correct++;
 
 			$('#result-jq2 .right-ans').remove();
@@ -75,7 +76,7 @@ $(document).ready( function() {
 		}
 
 		// jq3
-        if(radio_button_value_jq3 == "no") {
+        if(radio_button_value_jq3 == "1") {
 			  q_correct++;
 
 			$('#result-jq3 .right-ans').remove();
