@@ -29,7 +29,7 @@ $(document).ready( function() {
  
 
 
-   
+   // start #quiz-case-study-one
 
     $('#quiz-case-study-one').submit( function( event ) {
 
@@ -57,9 +57,7 @@ $(document).ready( function() {
 		$("#see-video-jq17").hide(); 
 		$("#see-video-jq18").hide(); 
 		$("#see-video-jq19").hide(); 
-		$("#see-video-jq20").hide(); 
-		$("#see-video-jq21").hide(); 
-		$("#see-video-jq22").hide(); 
+		$("#see-video-jq20").hide(); 	 
  
 
         $("html, body").animate({ scrollTop: $('#quiz-case-study-one').offset().top -60}, 600);
@@ -87,10 +85,7 @@ $(document).ready( function() {
         radio_button_value_jq17 = getRadioValuejq17();    
         radio_button_value_jq18 = getRadioValuejq18();
         radio_button_value_jq19 = getRadioValuejq19();  
-        radio_button_value_jq20 = getRadioValuejq20();  
-        radio_button_value_jq21 = getRadioValuejq21();  
-        radio_button_value_jq22 = getRadioValuejq22();  
-   
+        radio_button_value_jq20 = getRadioValuejq20();     
 
         // jq1
         if(radio_button_value_jq1 == 1) {
@@ -437,8 +432,35 @@ $(document).ready( function() {
 			$('#result-jq20 .show').remove();
 			$('#result-jq20').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
 		}
+ 
+		// temp end
+ 
+		$('.m_r_r').remove();
+ 		  
+        $('#quiz-result-message').append( "<p class='m_r_r alert alert-success'><strong>"+ q_correct +" Correct Answer out of 20 &nbsp; &nbsp;</strong> </p>" );
+    });
 
-		// jq21
+// End #quiz-case-study-one
+
+// Start #quiz-case-study-one-sub
+   $('#quiz-case-study-one-sub').submit( function( event ) {
+
+     	var q_total = 0;
+        var q_correct = 0;
+
+        $("#see-video-jq21").hide(); 
+		$("#see-video-jq22").hide(); 
+ 
+
+        $("html, body").animate({ scrollTop: $('#quiz-case-study-one-sub').offset().top -60}, 600);
+        event.preventDefault(); // Prevent from default submit button behaviour
+
+    // will select the value
+    radio_button_value_jq21 = getRadioValuejq21();  
+    radio_button_value_jq22 = getRadioValuejq22();  
+
+
+    // jq21
         if(radio_button_value_jq21 == 1) {
 			 q_correct++;
 
@@ -472,17 +494,15 @@ $(document).ready( function() {
 			$('#result-jq22').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong> <span class='show'>Click to (Show / Hide) Answer</span></p>" );
 		}
 
-		// temp end
+		// temp end 
 
-
-
-
-		$('.m_r_r').remove();
+		$('.m_r_r2').remove();
  		  
-        $('#quiz-result-message').append( "<p class='m_r_r alert alert-success'><strong>"+ q_correct +" Correct Answer out of 20 &nbsp; &nbsp;</strong> </p>" );
+        $('#quiz-result-message2').append( "<p class='m_r_r2 alert alert-success'><strong>"+ q_correct +" Correct Answer out of 2 &nbsp; &nbsp;</strong> </p>" );
     });
 
 
+// End #quiz-case-study-one-sub
 
 	$("#see-video-jq1").hide(); 
 	$("#see-video-jq2").hide(); 
@@ -850,5 +870,5 @@ $(document).ready( function() {
 
 
 	// final end
-});
+}); // end of document ready
 
