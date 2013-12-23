@@ -8,7 +8,7 @@ $(document).ready( function() {
     var radio_button_value_jq4 = getRadioValuejq4();
     var radio_button_value_jq5 = getRadioValuejq5();
     var radio_button_value_jq6 = getRadioValuejq6();
-    var radio_button_value_jq7_mul = getRadioValuejq7_mul();
+    var radio_button_value_jq7_mul = getCheckboxValuejq7_mul();
     var radio_button_value_jq8 = getRadioValuejq8();
 
     var radio_button_value_jq9 = getRadioValuejq9();
@@ -70,7 +70,7 @@ $(document).ready( function() {
         radio_button_value_jq4 = getRadioValuejq4();  
         radio_button_value_jq5 = getRadioValuejq5();  
         radio_button_value_jq6 = getRadioValuejq6();  
-        radio_button_value_jq7_mul = getRadioValuejq7_mul();      
+        radio_button_value_jq7_mul = getCheckboxValuejq7_mul();      
         radio_button_value_jq8 = getRadioValuejq8();       
 
         radio_button_value_jq9 = getRadioValuejq9();    
@@ -735,7 +735,7 @@ $(document).ready( function() {
 	    }
 	}
 
-	function getRadioValuejq7_mul() {
+	function getCheckboxValuejq7_mul() {
 		 
 		 var ans1 = $('#max_uteroplacental').is(":checked");
 		 var ans2 = $('#max_oxygenation').is(":checked");
