@@ -737,11 +737,11 @@ $(document).ready( function() {
 
 	function getCheckboxValuejq7_mul() {
 		 
-		 var ans1 = $('#max_uteroplacental').is(":checked");
-		 var ans2 = $('#max_oxygenation').is(":checked");
-		 var ans3 = $('#max_umbilical').is(":checked");
-		 var ans4 = $('#max_uterine').is(":checked");
-		 var ans5 = $('#support_maternal').is(":checked");
+		 var ans1 = $('#f1q7_max_uteroplacental').is(":checked");
+		 var ans2 = $('#f1q7_max_oxygenation').is(":checked");
+		 var ans3 = $('#f1q7_max_umbilical').is(":checked");
+		 var ans4 = $('#f1q7_max_uterine').is(":checked");
+		 var ans5 = $('#f1q7_support_maternal').is(":checked");
  
 	    if( (ans1) && (ans2) && (!ans3) && (!ans4) && (ans5) ) {
 	    	//console.log("if" + ans1 + ans2 + ans3 + ans4 + ans5);
