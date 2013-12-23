@@ -8,7 +8,7 @@ $(document).ready( function() {
     var radio_button_value_jq4 = getRadioValuejq4();
     var radio_button_value_jq5 = getRadioValuejq5();
     var radio_button_value_jq6 = getRadioValuejq6();
-    var radio_button_value_jq7_mul = getCheckboxValuejq7_mul();
+    var checkbox_button_value_jq7_mul = getCheckboxValuejq7_mul();
     var radio_button_value_jq8 = getRadioValuejq8();
 
     var radio_button_value_jq9 = getRadioValuejq9();
@@ -70,7 +70,7 @@ $(document).ready( function() {
         radio_button_value_jq4 = getRadioValuejq4();  
         radio_button_value_jq5 = getRadioValuejq5();  
         radio_button_value_jq6 = getRadioValuejq6();  
-        radio_button_value_jq7_mul = getCheckboxValuejq7_mul();      
+        checkbox_button_value_jq7_mul = getCheckboxValuejq7_mul();      
         radio_button_value_jq8 = getRadioValuejq8();       
 
         radio_button_value_jq9 = getRadioValuejq9();    
@@ -193,7 +193,7 @@ $(document).ready( function() {
 
 
 		// jq7
-        if(radio_button_value_jq7_mul == 1) {
+        if(checkbox_button_value_jq7_mul == 1) {
 			  q_correct++;
 
 			$('#result-jq7 .right-ans').remove();
