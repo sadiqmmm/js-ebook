@@ -105,12 +105,30 @@
               <div class="form-group">
                 <h4>1) What is the baseline fetal heart rate?</h4>
                  <div class="question-option">
-                  <p><input type="radio" name="jq1" value="0"> 130</p>
-                  <p><input type="radio" name="jq1" value="1"> 135</p>
-                  <p><input type="radio" name="jq1" value="0"> 140</p>
-                  <p><input type="radio" name="jq1" value="0"> 145</p>
-                  <p><input type="radio" name="jq1" value="0"> 150</p>
-                  <p><input type="radio" name="jq1" value="0"> Unable to determine</p>
+                  <p>
+                    <input type="radio" name="jq1" id="f1q1_130" value="0">
+                    <label for="f1q1_130">130</label>
+                  </p>
+                  <p>
+                    <input type="radio" name="jq1" id="f1q1_135" value="1">
+                    <label for="f1q1_135">135</label>
+                    </p>
+                  <p>
+                    <input type="radio" name="jq1" id="f1q1_140" value="0">
+                    <label for="f1q1_140">140</label>
+                  </p>
+                  <p>
+                    <input type="radio" name="jq1" id="f1q1_145" value="0">
+                    <label for="f1q1_145">145</label>
+                  </p>
+                  <p>
+                    <input type="radio" name="jq1" id="f1q1_150" value="0">
+                    <label for="f1q1_150">150</label>
+                  </p>
+                  <p>
+                    <input type="radio" name="jq1" id="f1q1_unable_to_determine" value="0">
+                    <label for="f1q1_unable_to_determine">Unable to determine</label>
+                  </p>
                 </div>
               </div>
             </div>
@@ -135,10 +153,22 @@
           <div class="form-group">
             <h4>2) What is the variability?</h4>
               <div class="question-option">
-                <p><input type="radio" name="jq2" value="1"> Absent</p>
-                <p><input type="radio" name="jq2" value="0"> Minimal</p>
-                <p><input type="radio" name="jq2" value="0"> Moderate</p>
-                <p><input type="radio" name="jq2" value="0"> Marked</p>
+                <p>
+                  <input type="radio" name="jq2" id="f1q2_absent" value="1">
+                  <label for="f1q2_absent">Absent</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq2" id="f1q2_minimal" value="0">
+                  <label for="f1q2_minimal">Minimal</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq2" id="f1q2_moderate" value="0">
+                  <label for="f1q2_moderate">Moderate</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq2" id="f1q2_marked" value="0">
+                  <label for="f1q2_marked">Marked</label>
+                </p>
               </div>  
           </div>  
         </div> 
@@ -163,8 +193,14 @@
           <div class="form-group">
             <h4>3) Are accelerations present?</h4>
               <div class="question-option">
-                <p><input type="radio" name="jq3" value="0"> Yes</p>
-                <p><input type="radio" name="jq3" value="1"> No</p>
+                <p>
+                  <input type="radio" name="jq3" id="f1q3_yes" value="0">
+                  <label for="f1q3_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq3" id="f1q3_no" value="1">
+                  <label for="f1q3_no">No</label>
+                </p>
               </div>  
           </div>
         </div>
@@ -184,11 +220,26 @@
           <div class="form-group">
             <h4>4) What is the frequency of the contractions?</h4>
               <div class="question-option">
-                <p><input type="radio" name="jq4" value="0"> 2-3 minutes</p>
-                <p><input type="radio" name="jq4" value="0"> 2-3 &#189; minutes</p>
-                <p><input type="radio" name="jq4" value="1"> 3-4 &#189; minutes</p>
-                <p><input type="radio" name="jq4" value="0"> 3-5 minutes</p>
-                <p><input type="radio" name="jq4" value="0"> Tachysystole</p>
+                <p>
+                  <input type="radio" name="jq4" id="f1q_4_2to3_minutes" value="0">
+                  <label for="f1q_4_2to3_minutes">2-3 minutes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq4" id="f1q4_2_half_to3_minutes" value="0"> 
+                  <label for="f1q4_2_half_to3_minutes">2-3 &#189; minutes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq4" id="f1q4_3to4half_minutes" value="1">
+                  <label for="f1q4_3to4half_minutes">3-4 &#189; minutes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq4" id="f1q4_3to5_minutes" value="0">
+                  <label for="f1q4_3to5_minutes">3-5 minutes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq4" id="f1q4_tachysystole" value="0">
+                  <label for="f1q4_tachysystole">Tachysystole</label>
+                </p>
               </div>  
           </div>  
   </div>
@@ -213,10 +264,22 @@
            <div class="form-group">
             <h4>5) What is the duration of the contractions?</h4>
               <div class="question-option">
-                <p><input type="radio" name="jq5" value="0"> 60-70 seconds</p>
-                <p><input type="radio" name="jq5" value="0"> 70-90 seconds</p>
-                <p><input type="radio" name="jq5" value="1"> 80-110 seconds</p>
-                <p><input type="radio" name="jq5" value="0"> 100-110 seconds</p>
+                <p>
+                  <input type="radio" name="jq5" id="f1q5_60_70_seconds" value="0">
+                  <label for="f1q5_60_70_seconds">60-70 seconds</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq5" id="f1q5_70_90_seconds" value="0">
+                  <label for="f1q5_70_90_seconds">70-90 seconds</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq5" id="f1q5_80_110_seconds" value="1">
+                  <label for="f1q5_80_110_seconds">80-110 seconds</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq5" id="f1q5_100_110_seconds" value="0">
+                  <label for="f1q5_100_110_seconds">100-110 seconds</label>
+                </p>
               </div>  
           </div>  
  </div>
@@ -241,9 +304,18 @@
            <div class="form-group">
             <h4>6) What is the category?</h4>
               <div class="question-option">
-                <p><input type="radio" name="jq6" value="0"> Category I, normal</p>
-                <p><input type="radio" name="jq6" value="1"> Category II, indeterminate</p>
-                <p><input type="radio" name="jq6" value="0"> Category III, abnormal</p>
+                <p>
+                  <input type="radio" name="jq6" id="f1q6_category_1_normal" value="0">
+                  <label for="f1q6_category_1_normal">Category I, normal</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq6" id="f1q6_category_2_indeterminate" value="1">
+                  <label for="f1q6_category_2_indeterminate">Category II, indeterminate</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq6" id="f1q6_category_3_abnormal" value="0">
+                  <label for="f1q6_category_3_abnormal">Category III, abnormal</label>
+                </p>
                 
               </div>  
           </div> 
@@ -317,8 +389,14 @@
              <h4>8) Is internal fetal monitoring needed (FSE or IUPC)? </h4>
              
               <div class="sub-question-option">
-                <p><input type="radio" name="jq8" value="0"> Yes</p>
-                <p><input type="radio" name="jq8" value="1"> No</p>
+                <p>
+                  <input type="radio" name="jq8" id="f1q8_yes" value="0">
+                  <label for="f1q8_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq8" id="f1q8_no" value="1">
+                  <label for="f1q8_no">No</label>
+                </p>
                
               </div>         
 
@@ -343,8 +421,14 @@
             
               <div class="question-option">
                  
-                <p><input type="radio" name="jq9" value="1"> Yes</p>
-                <p><input type="radio" name="jq9" value="0"> No</p>
+                <p>
+                  <input type="radio" name="jq9" id="f1q9_yes" value="1">
+                  <label for="f1q9_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq9" id="f1q9_no" value="0">
+                  <label for="f1q9_no">No</label>
+                </p>
                  
               </div>  
             </div>  
@@ -369,8 +453,14 @@
             
               <div class="question-option">
                  
-                <p><input type="radio" name="jq10" value="1"> Yes</p>
-                <p><input type="radio" name="jq10" value="0"> No</p>
+                <p>
+                  <input type="radio" name="jq10" id="f1q10_yes" value="1">
+                  <label for="f1q10_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq10" id="f1q10_no" value="0">
+                  <label for="f1q10_no">No</label>
+                </p>
                  
               </div>  
             </div>  
@@ -394,8 +484,14 @@
             
               <div class="question-option">
                  
-                <p><input type="radio" name="jq11" value="1"> Yes</p>
-                <p><input type="radio" name="jq11" value="0"> No</p>
+                <p>
+                  <input type="radio" name="jq11" id="f1q11_yes" value="1">
+                  <label for="f1q11_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq11" id="f1q11_no" value="0">
+                  <label for="f1q11_no">No</label>
+                </p>
                  
               </div>  
             </div>  
@@ -419,8 +515,14 @@
             
               <div class="question-option">
                  
-                <p><input type="radio" name="jq12" value="0"> Yes</p>
-                <p><input type="radio" name="jq12" value="1"> No</p>
+                <p>
+                  <input type="radio" name="jq12" id="f1q12_yes" value="0">
+                  <label for="f1q12_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq12" id="f1q12_no" value="1">
+                  <label for="f1q12_no">No</label>
+                </p>
                  
               </div>  
             </div>  
@@ -445,8 +547,14 @@
             
               <div class="question-option">
                  
-                <p><input type="radio" name="jq13" value="0"> Yes</p>
-                <p><input type="radio" name="jq13" value="1"> No</p>
+                <p>
+                  <input type="radio" name="jq13" id="f1q13_yes" value="0">
+                  <label for="f1q13_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq13" id="f1q13_no" value="1">
+                  <label for="f1q13_no">No</label>
+                </p>
                  
               </div>  
             </div>  
@@ -470,8 +578,14 @@
             
               <div class="question-option">
                  
-                <p><input type="radio" name="jq14" value="0"> Yes</p>
-                <p><input type="radio" name="jq14" value="1"> No</p>
+                <p>
+                  <input type="radio" name="jq14" id="f1q14_yes" value="0">
+                  <label for="f1q14_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq14" id="f1q14_no" value="1">
+                  <label for="f1q14_no">No</label>
+                </p>
                  
               </div>  
             </div>  
@@ -495,8 +609,14 @@
             
               <div class="question-option">
                  
-                <p><input type="radio" name="jq15" value="1"> Yes</p>
-                <p><input type="radio" name="jq15" value="0"> No</p>
+                <p>
+                  <input type="radio" name="jq15" id="f1q15_yes" value="1">
+                  <label for="f1q15_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq15" id="f1q15_no" value="0">
+                  <label for="f1q15_no">No</label>
+                </p>
                  
               </div>  
             </div>  
@@ -520,8 +640,14 @@
             
               <div class="question-option">
                  
-                <p><input type="radio" name="jq16" value="0"> Yes</p>
-                <p><input type="radio" name="jq16" value="1"> No</p>
+                <p>
+                  <input type="radio" name="jq16" id="f1q16_yes" value="0">
+                  <label for="f1q16_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq16" id="f1q16_no" value="1">
+                  <label for="f1q16_no">No</label>
+                </p>
                  
               </div>  
             </div>  
@@ -545,8 +671,14 @@
             
               <div class="question-option">
                  
-                <p><input type="radio" name="jq17" value="0"> Yes</p>
-                <p><input type="radio" name="jq17" value="1"> No</p>
+                <p>
+                  <input type="radio" name="jq17" id="f1q17_yes" value="0">
+                  <label for="f1q17_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq17" id="f1q17_no" value="1">
+                  <label for="f1q17_no">No</label>
+                </p>
                  
               </div>  
             </div>  
@@ -571,8 +703,14 @@
             
               <div class="question-option">
                  
-                <p><input type="radio" name="jq18" value="1"> Yes</p>
-                <p><input type="radio" name="jq18" value="0"> No</p>
+                <p>
+                  <input type="radio" name="jq18" id="f1q18_yes" value="1">
+                  <label for="f1q18_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq18" id="f1q18_no" value="0">
+                  <label for="f1q18_no">No</label>
+                </p>
                  
               </div>  
             </div>  
@@ -597,8 +735,14 @@
             
               <div class="question-option">
                  
-                <p><input type="radio" name="jq19" value="1"> Yes</p>
-                <p><input type="radio" name="jq19" value="0"> No</p>
+                <p>
+                  <input type="radio" name="jq19" id="f1q19_yes" value="1">
+                  <label for="f1q19_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq19" id="f1q19_no" value="0">
+                  <label for="f1q19_no">No</label>
+                </p>
                  
               </div>  
             </div>  
@@ -623,8 +767,14 @@
             
               <div class="question-option">
                  
-                <p><input type="radio" name="jq20" value="1"> Yes</p>
-                <p><input type="radio" name="jq20" value="0"> No</p>
+                <p>
+                  <input type="radio" name="jq20" id="f1q20_yes" value="1">
+                  <label for="f1q20_yes">Yes</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq20" id="f1q20_no" value="0">
+                  <label for="f1q20_no">No</label>
+                </p>
                  
               </div>  
             </div>  
@@ -680,11 +830,26 @@
             
               <div class="question-option">
                  
-                <p><input type="radio" name="jq21" value="0"> None</p>
-                <p><input type="radio" name="jq21" value="0"> Early decelerations</p>
-                <p><input type="radio" name="jq21" value="0"> Variable decelerations</p>
-                <p><input type="radio" name="jq21" value="1"> Prolong decelerations</p>
-                <p><input type="radio" name="jq21" value="0"> Late decelerations</p>
+                <p>
+                  <input type="radio" name="jq21" id="f1q21_none" value="0">
+                  <label for="f1q21_none">None</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq21" id="f1q21_early_decelerations" value="0">
+                  <label for="f1q21_early_decelerations">Early decelerations</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq21" id="f1q21_variable_decelerations" value="0">
+                  <label for="f1q21_variable_decelerations">Variable decelerations</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq21" id="f1q21_prolong_decelerations" value="1">
+                  <label for="f1q21_prolong_decelerations">Prolong decelerations</label>
+                </p>
+                <p>
+                  <input type="radio" name="jq21" id="f1q21_late_decelerations" value="0">
+                  <label for="f1q21_late_decelerations">Late decelerations</label>
+                </p>
               </div>  
             </div>  
           </div>
