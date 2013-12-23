@@ -8,7 +8,7 @@ $(document).ready( function() {
     var radio_button_value_jq4 = getRadioValuejq4();
     var radio_button_value_jq5 = getRadioValuejq5();
     var radio_button_value_jq6 = getRadioValuejq6();
-    var radio_button_value_jq7 = getRadioValuejq7();
+    var radio_button_value_jq7_mul = getRadioValuejq7_mul();
     var radio_button_value_jq8 = getRadioValuejq8();
 
     var radio_button_value_jq9 = getRadioValuejq9();
@@ -70,7 +70,7 @@ $(document).ready( function() {
         radio_button_value_jq4 = getRadioValuejq4();  
         radio_button_value_jq5 = getRadioValuejq5();  
         radio_button_value_jq6 = getRadioValuejq6();  
-        radio_button_value_jq7 = getRadioValuejq7();      
+        radio_button_value_jq7_mul = getRadioValuejq7_mul();      
         radio_button_value_jq8 = getRadioValuejq8();       
 
         radio_button_value_jq9 = getRadioValuejq9();    
@@ -193,7 +193,7 @@ $(document).ready( function() {
 
 
 		// jq7
-        if(radio_button_value_jq7 == 1) {
+        if(radio_button_value_jq7_mul == 1) {
 			  q_correct++;
 
 			$('#result-jq7 .right-ans').remove();
@@ -735,11 +735,21 @@ $(document).ready( function() {
 	    }
 	}
 
-	function getRadioValuejq7 () {
-	    if( $('input[name=jq7]:radio:checked').length > 0 ) {
-	        return $('input[name=jq7]:radio:checked').val();
+	function getRadioValuejq7_mul() {
+		 
+		 var ans1 = $('#max_uteroplacental').is(":checked");
+		 var ans2 = $('#max_oxygenation').is(":checked");
+		 var ans3 = $('#max_umbilical').is(":checked");
+		 var ans4 = $('#max_uterine').is(":checked");
+		 var ans5 = $('#support_maternal').is(":checked");
+ 
+	    if( (ans1) && (ans2) && (!ans3) && (!ans4) && (ans5) ) {
+	    	//console.log("if" + ans1 + ans2 + ans3 + ans4 + ans5);
+	        return 1;
+	        
 	    }
 	    else {
+	    // console.log("else" + ans1 + ans2 + ans3 + ans4 + ans5);
 	        return 0;
 	    }
 	}

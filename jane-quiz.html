@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Quiz</title>
     <meta charset="UTF-8">
@@ -103,7 +103,7 @@
          <div class="row featurette">
             <div class="col-md-5">
               <div class="form-group">
-                <label>1) What is the baseline fetal heart rate?</label>
+                <h4>1) What is the baseline fetal heart rate?</h4>
                  <div class="question-option">
                   <p><input type="radio" name="jq1" value="0"> 130</p>
                   <p><input type="radio" name="jq1" value="1"> 135</p>
@@ -133,7 +133,7 @@
       <div class="row featurette">    
         <div class="col-md-5">
           <div class="form-group">
-            <label>2) What is the variability?</label>
+            <h4>2) What is the variability?</h4>
               <div class="question-option">
                 <p><input type="radio" name="jq2" value="1"> Absent</p>
                 <p><input type="radio" name="jq2" value="0"> Minimal</p>
@@ -161,7 +161,7 @@
       <div class="row featurette">    
         <div class="col-md-5">
           <div class="form-group">
-            <label>3) Are accelerations present?</label>
+            <h4>3) Are accelerations present?</h4>
               <div class="question-option">
                 <p><input type="radio" name="jq3" value="0"> Yes</p>
                 <p><input type="radio" name="jq3" value="1"> No</p>
@@ -182,7 +182,7 @@
       <div class="row featurette">    
         <div class="col-md-5">
           <div class="form-group">
-            <label>4) What is the frequency of the contractions?</label>
+            <h4>4) What is the frequency of the contractions?</h4>
               <div class="question-option">
                 <p><input type="radio" name="jq4" value="0"> 2-3 minutes</p>
                 <p><input type="radio" name="jq4" value="0"> 2-3 &#189; minutes</p>
@@ -211,7 +211,7 @@
       <div class="row featurette">    
         <div class="col-md-5">          
            <div class="form-group">
-            <label>5) What is the duration of the contractions?</label>
+            <h4>5) What is the duration of the contractions?</h4>
               <div class="question-option">
                 <p><input type="radio" name="jq5" value="0"> 60-70 seconds</p>
                 <p><input type="radio" name="jq5" value="0"> 70-90 seconds</p>
@@ -239,7 +239,7 @@
       <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-            <label>6) What is the category?</label>
+            <h4>6) What is the category?</h4>
               <div class="question-option">
                 <p><input type="radio" name="jq6" value="0"> Category I, normal</p>
                 <p><input type="radio" name="jq6" value="1"> Category II, indeterminate</p>
@@ -262,15 +262,30 @@
       <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>7) Which physiologic goals need to be addressed? </label>
+             <h4>7) Which physiologic goals need to be addressed?</h4>
             
               <div class="question-option">
                 <p>Physiologic goals for observed pattern:</p><br />
-                <p><input type="radio" name="jq7" value="1"> Maximize uteroplacental blood flow</p>
-                <p><input type="radio" name="jq7" value="0"> Maximize oxygenation</p>
-                <p><input type="radio" name="jq7" value="0"> Maximize umbilical circulation</p>
-                <p><input type="radio" name="jq7" value="0"> Reduce uterine activity</p>
-                <p><input type="radio" name="jq7" value="0"> Support maternal coping</p>
+                <p>
+                  <input type="checkbox" name="jq7" value="1" id="max_uteroplacental"> 
+                  <label for="max_uteroplacental">Maximize uteroplacental blood flow</label>
+                </p>
+                <p>
+                 <input type="checkbox" name="jq7" value="1" id="max_oxygenation"> 
+                 <label for="max_oxygenation">Maximize oxygenation</label>
+                </p>
+                <p>
+                  <input type="checkbox" name="jq7" value="0" id="max_umbilical">
+                  <label for="max_umbilical">Maximize umbilical circulation</label>
+                </p>
+                <p>
+                  <input type="checkbox" name="jq7" value="0" id="max_uterine"> 
+                  <label for="max_uterine">Reduce uterine activity</label>
+                </p>
+                <p>
+                  <input type="checkbox" name="jq7" value="1" id="support_maternal">
+                  <label for="support_maternal">Support maternal coping</label>
+                </p>
               </div>  
             </div>  
           </div>
@@ -295,7 +310,7 @@
         <div class="col-md-5">  
             <div class="form-group">
      
-             <label>8) Is internal fetal monitoring needed (FSE or IUPC)? </label>
+             <h4>8) Is internal fetal monitoring needed (FSE or IUPC)? </h4>
              
               <div class="sub-question-option">
                 <p><input type="radio" name="jq8" value="0"> Yes</p>
@@ -320,7 +335,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>9) Turn the mother to a lateral position? </label>
+             <h4>9) Turn the mother to a lateral position? </h4>
             
               <div class="question-option">
                  
@@ -346,7 +361,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>10) Fluid bolus of at least 500 mL of lactated Ringers solution if not contraindicated? </label>
+             <h4>10) Fluid bolus of at least 500 mL of lactated Ringers solution if not contraindicated? </h4>
             
               <div class="question-option">
                  
@@ -371,7 +386,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>11) Administer supplemental oxygen at 10 L/min using non-rebreather mask and discontinue as soon as possible? </label>
+             <h4>11) Administer supplemental oxygen at 10 L/min using non-rebreather mask and discontinue as soon as possible? </h4>
             
               <div class="question-option">
                  
@@ -396,7 +411,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>12) Decrease or discontinue oxytocin? </label>
+             <h4>12) Decrease or discontinue oxytocin? </h4>
             
               <div class="question-option">
                  
@@ -422,7 +437,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>13) Administer tocolytic (e.g., terbutaline)? </label>
+             <h4>13) Administer tocolytic (e.g., terbutaline)? </h4>
             
               <div class="question-option">
                  
@@ -447,7 +462,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>14) Perform fetal scalp stimulation? </label>
+             <h4>14) Perform fetal scalp stimulation? </h4>
             
               <div class="question-option">
                  
@@ -472,7 +487,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>15) Monitor maternal vital signs for hypotension? </label>
+             <h4>15) Monitor maternal vital signs for hypotension? </h4>
             
               <div class="question-option">
                  
@@ -497,7 +512,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>16) Administer a vasopressor (e.g., ephedrine)? </label>
+             <h4>16) Administer a vasopressor (e.g., ephedrine)? </h4>
             
               <div class="question-option">
                  
@@ -522,7 +537,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>17) An amnioinfusion may be ordered? </label>
+             <h4>17) An amnioinfusion may be ordered? </h4>
             
               <div class="question-option">
                  
@@ -548,7 +563,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>18) Notify primary care provider about findings and tracing and request bedside urgent evaluation? </label>
+             <h4>18) Notify primary care provider about findings and tracing and request bedside urgent evaluation? </h4>
             
               <div class="question-option">
                  
@@ -574,7 +589,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>19) Notify the charge nurse? </label>
+             <h4>19) Notify the charge nurse? </h4>
             
               <div class="question-option">
                  
@@ -600,7 +615,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>20) Support maternal coping? </label>
+             <h4>20) Support maternal coping? </h4>
             
               <div class="question-option">
                  
@@ -657,7 +672,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>21) What type of periodic change occurred between 0946 to 0949? </label>
+             <h4>21) What type of periodic change occurred between 0946 to 0949? </h4>
             
               <div class="question-option">
                  
@@ -690,7 +705,7 @@
 <div class="row featurette">    
         <div class="col-md-5">  
            <div class="form-group">
-             <label>22) In the presence of the deceleration what physiologic goal(s) needs(s) to be addressed? </label>
+             <h4>22) In the presence of the deceleration what physiologic goal(s) needs(s) to be addressed? </h4>
             
               <div class="question-option">
                  
@@ -764,7 +779,7 @@
            <ul>
               <h4>Umbilical arterial and venous blood samples were collected and the results were:</h4>
                
-              <table class="table-bordered">
+              <table class="table table-bordered">
 
                  <caption><b>Arterial:</b></caption>
                 <tr>
@@ -789,7 +804,7 @@
                 </tr> 
               </table><br />
             
-             <table class="table-bordered">
+             <table class="table table-bordered">
              <caption><b>Venous:</b></caption>
               
               <tr>
