@@ -452,7 +452,7 @@ $(document).ready( function() {
 		$("#see-video-jq22").hide(); 
  
 
-        $("html, body").animate({ scrollTop: $('#quiz-case-study-one-sub').offset().top -60}, 600);
+        $("html, body").animate({ scrollTop: $('#quiz-result-message2').offset().top -60}, 600);
         event.preventDefault(); // Prevent from default submit button behaviour
 
     // will select the value
