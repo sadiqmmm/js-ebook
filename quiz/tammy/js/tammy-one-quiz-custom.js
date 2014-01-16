@@ -8,26 +8,24 @@ $(document).ready( function() {
     var radio_button_value_jq4 = getRadioValuejq4();
     var radio_button_value_jq5 = getRadioValuejq5();
     var radio_button_value_jq6 = getRadioValuejq6();
-    var checkbox_button_value_jq7_mul = getCheckboxValuejq7_mul();
-    var radio_button_value_jq8 = getRadioValuejq8();
-
+    var radio_button_value_jq7 = getRadioValuejq7();
+    var checkbox_button_value_jq8_mul = getCheckboxValuejq8_mul();
     var radio_button_value_jq9 = getRadioValuejq9();
-    var radio_button_value_jq10 = getRadioValuejq10();
+
+    var radio_button_value_jq10 = getRadioValuejq9();
     var radio_button_value_jq11 = getRadioValuejq11();
     var radio_button_value_jq12 = getRadioValuejq12();
     var radio_button_value_jq13 = getRadioValuejq13();
     var radio_button_value_jq14 = getRadioValuejq14();
     var radio_button_value_jq15 = getRadioValuejq15();
     var radio_button_value_jq16 = getRadioValuejq16();
-
     var radio_button_value_jq17 = getRadioValuejq17();
+
     var radio_button_value_jq18 = getRadioValuejq18();
     var radio_button_value_jq19 = getRadioValuejq19();
     var radio_button_value_jq20 = getRadioValuejq20();
     var radio_button_value_jq21 = getRadioValuejq21();
-     
  
-
 
    // start #quiz-case-study-one
 
@@ -44,21 +42,22 @@ $(document).ready( function() {
 		$("#see-video-jq6").hide(); 
 		$("#see-video-jq7").hide(); 
 		$("#see-video-jq8").hide(); 
-
 		$("#see-video-jq9").hide(); 
+
 		$("#see-video-jq10").hide(); 
 		$("#see-video-jq11").hide(); 
 		$("#see-video-jq12").hide(); 
 		$("#see-video-jq13").hide(); 
 		$("#see-video-jq14").hide(); 
 		$("#see-video-jq15").hide(); 
-		$("#see-video-jq16").hide();
+		$("#see-video-jq16").hide(); 
+		$("#see-video-jq17").hide();
 
-		$("#see-video-jq17").hide(); 
 		$("#see-video-jq18").hide(); 
 		$("#see-video-jq19").hide(); 
-		$("#see-video-jq20").hide(); 	 
-        $("#see-video-jq21").hide(); 
+		$("#see-video-jq20").hide(); 
+		$("#see-video-jq21").hide(); 	 
+        
  
         $("html, body").animate({ scrollTop: $('#quiz-case-study-one').offset().top -60}, 600);
         event.preventDefault(); // Prevent from default submit button behaviour
@@ -70,24 +69,25 @@ $(document).ready( function() {
         radio_button_value_jq4 = getRadioValuejq4();  
         radio_button_value_jq5 = getRadioValuejq5();  
         radio_button_value_jq6 = getRadioValuejq6();  
-        checkbox_button_value_jq7_mul = getCheckboxValuejq7_mul();      
-        radio_button_value_jq8 = getRadioValuejq8();       
+        radio_button_value_jq7 = getRadioValuejq7();  
+        checkbox_button_value_jq8_mul = getCheckboxValuejq8_mul();      
+        radio_button_value_jq9 = getRadioValuejq8();       
 
-        radio_button_value_jq9 = getRadioValuejq9();    
-        radio_button_value_jq10 = getRadioValuejq10();
-        radio_button_value_jq11 = getRadioValuejq11();  
-        radio_button_value_jq12 = getRadioValuejq12();  
-        radio_button_value_jq13 = getRadioValuejq13();  
-        radio_button_value_jq14 = getRadioValuejq14();  
-        radio_button_value_jq15 = getRadioValuejq15();      
-        radio_button_value_jq16 = getRadioValuejq16();   
+        radio_button_value_jq10 = getRadioValuejq9();    
+        radio_button_value_jq11 = getRadioValuejq10();
+        radio_button_value_jq12 = getRadioValuejq11();  
+        radio_button_value_jq13 = getRadioValuejq12();  
+        radio_button_value_jq14 = getRadioValuejq13();  
+        radio_button_value_jq15 = getRadioValuejq14();  
+        radio_button_value_jq16 = getRadioValuejq15();      
+        radio_button_value_jq17 = getRadioValuejq16();   
 
-        radio_button_value_jq17 = getRadioValuejq17();    
-        radio_button_value_jq18 = getRadioValuejq18();
-        radio_button_value_jq19 = getRadioValuejq19();  
-        radio_button_value_jq20 = getRadioValuejq20();     
+        radio_button_value_jq18 = getRadioValuejq17();    
+        radio_button_value_jq19 = getRadioValuejq18();
+        radio_button_value_jq20 = getRadioValuejq19();  
+        radio_button_value_jq21 = getRadioValuejq20();     
 
-   	    radio_button_value_jq21 = getRadioValuejq21();  
+   	  
 
         // jq1
         if(radio_button_value_jq1 == 1) {
@@ -192,11 +192,9 @@ $(document).ready( function() {
 			$('#result-jq6 .show').remove();
 			$('#result-jq6').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
 		}
-
-
-		// jq7
-        if(checkbox_button_value_jq7_mul == 1) {
-			  q_correct++;
+		   // jq7
+        if(radio_button_value_jq7 == 1) {
+			 q_correct++;
 
 			$('#result-jq7 .right-ans').remove();
 			$('#result-jq7 .wrong-ans').remove();
@@ -212,8 +210,9 @@ $(document).ready( function() {
 		}
 
 		// jq8
-        if(radio_button_value_jq8 == 1) {
+        if(checkbox_button_value_jq8_mul == 1) {
 			  q_correct++;
+
 			$('#result-jq8 .right-ans').remove();
 			$('#result-jq8 .wrong-ans').remove();
 			$('#result-jq8 .show').remove();
@@ -221,20 +220,15 @@ $(document).ready( function() {
 		}
 		else{
 			 
-			$('#result-jq8 .right-ans').remove();
-			$('#result-jq8 .wrong-ans').remove();
-			$('#result-jq8 .show').remove();
-			$('#result-jq8').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
+			$('#result-jq7 .right-ans').remove();
+			$('#result-jq7 .wrong-ans').remove();
+			$('#result-jq7 .show').remove();
+			$('#result-jq7').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
 		}
-
-
-
-		// temp start
 
 		// jq9
         if(radio_button_value_jq9 == 1) {
 			  q_correct++;
-
 			$('#result-jq9 .right-ans').remove();
 			$('#result-jq9 .wrong-ans').remove();
 			$('#result-jq9 .show').remove();
@@ -247,6 +241,10 @@ $(document).ready( function() {
 			$('#result-jq9 .show').remove();
 			$('#result-jq9').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
 		}
+
+
+
+		// temp start
 
 		// jq10
         if(radio_button_value_jq10 == 1) {
@@ -311,7 +309,7 @@ $(document).ready( function() {
 		else{
 			 
 			$('#result-jq13 .right-ans').remove();
-			$('#result-jq13 .wrong-ans').remove();
+			$('#result-jq13.wrong-ans').remove();
 			$('#result-jq13 .show').remove();
 			$('#result-jq13').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
 		}
@@ -434,10 +432,10 @@ $(document).ready( function() {
 			$('#result-jq20 .show').remove();
 			$('#result-jq20').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
 		}
-    	
-    	 // jq21
+
+		// jq21
         if(radio_button_value_jq21 == 1) {
-			 q_correct++;
+			  q_correct++;
 
 			$('#result-jq21 .right-ans').remove();
 			$('#result-jq21 .wrong-ans').remove();
@@ -451,9 +449,11 @@ $(document).ready( function() {
 			$('#result-jq21 .show').remove();
 			$('#result-jq21').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
 		}
+    	
+
  
 		// temp end
- 
+  
 		$('.m_r_r').remove();
  		  
         $('#quiz-result-message').append( "<p class='m_r_r alert alert-success'><strong>"+ q_correct +" Correct Answer out of 21 &nbsp; &nbsp;</strong> </p>" );
@@ -470,8 +470,8 @@ $(document).ready( function() {
 	$("#see-video-jq6").hide(); 
 	$("#see-video-jq7").hide(); 
 	$("#see-video-jq8").hide(); 
-	
 	$("#see-video-jq9").hide(); 
+	
 	$("#see-video-jq10").hide(); 
 	$("#see-video-jq11").hide(); 
 	$("#see-video-jq12").hide(); 
@@ -479,12 +479,13 @@ $(document).ready( function() {
 	$("#see-video-jq14").hide(); 
 	$("#see-video-jq15").hide(); 
 	$("#see-video-jq16").hide(); 
-	
 	$("#see-video-jq17").hide(); 
+	
 	$("#see-video-jq18").hide(); 
 	$("#see-video-jq19").hide(); 
 	$("#see-video-jq20").hide(); 
 	$("#see-video-jq21").hide(); 
+	
  
  
 	
@@ -687,14 +688,21 @@ $(document).ready( function() {
 	        return 0;
 	    }
 	}
-
-	function getCheckboxValuejq7_mul() {
+	function getRadioValuejq7 () {
+	    if( $('input[name=jq7]:radio:checked').length > 0 ) {
+	        return $('input[name=jq7]:radio:checked').val();
+	    }
+	    else {
+	        return 0;
+	    }
+	}
+	function getCheckboxValuejq8_mul() {
 		 
-		 var ans1 = $('#f1q7_max_uteroplacental').is(":checked");
-		 var ans2 = $('#f1q7_max_oxygenation').is(":checked");
-		 var ans3 = $('#f1q7_max_umbilical').is(":checked");
-		 var ans4 = $('#f1q7_max_uterine').is(":checked");
-		 var ans5 = $('#f1q7_support_maternal').is(":checked");
+		 var ans1 = $('#f1q8_max_uteroplacental').is(":checked");
+		 var ans2 = $('#f1q8_max_oxygenation').is(":checked");
+		 var ans3 = $('#f1q8_max_umbilical').is(":checked");
+		 var ans4 = $('#f1q8_max_uterine').is(":checked");
+		 var ans5 = $('#f1q8_support_maternal').is(":checked");
  
 	    if( (ans1) && (ans2) && (ans3) && (ans4) && (ans5) ) {
 	    	//console.log("if" + ans1 + ans2 + ans3 + ans4 + ans5);
@@ -707,15 +715,6 @@ $(document).ready( function() {
 	    }
 	}
 
-	function getRadioValuejq8 () {
-	    if( $('input[name=jq8]:radio:checked').length > 0 ) {
-	        return $('input[name=jq8]:radio:checked').val();
-	    }
-	    else {
-	        return 0;
-	    }
-	}
-	// temp start
 	function getRadioValuejq9 () {
 	    if( $('input[name=jq9]:radio:checked').length > 0 ) {
 	        return $('input[name=jq9]:radio:checked').val();
@@ -724,6 +723,7 @@ $(document).ready( function() {
 	        return 0;
 	    }
 	}
+	// temp start
 	function getRadioValuejq10 () {
 	    if( $('input[name=jq10]:radio:checked').length > 0 ) {
 	        return $('input[name=jq10]:radio:checked').val();
@@ -820,6 +820,7 @@ $(document).ready( function() {
 	        return 0;
 	    }
 	}
+
  
 	// temp end
 
