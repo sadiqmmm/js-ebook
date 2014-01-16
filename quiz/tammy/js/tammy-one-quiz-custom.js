@@ -1,5 +1,5 @@
 $(document).ready( function() {
- 
+// release final version 
     // Value when you load the page for the first time
     // Will return 0 the first time it's called
     var quiz2_radio_button_value_jq1 = quiz2_getRadioValuejq1();
