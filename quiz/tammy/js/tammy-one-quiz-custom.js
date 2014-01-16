@@ -71,21 +71,21 @@ $(document).ready( function() {
         radio_button_value_jq6 = getRadioValuejq6();  
         radio_button_value_jq7 = getRadioValuejq7();  
         checkbox_button_value_jq8_mul = getCheckboxValuejq8_mul();      
-        radio_button_value_jq9 = getRadioValuejq8();       
+        radio_button_value_jq9 = getRadioValuejq9();       
 
-        radio_button_value_jq10 = getRadioValuejq9();    
-        radio_button_value_jq11 = getRadioValuejq10();
-        radio_button_value_jq12 = getRadioValuejq11();  
-        radio_button_value_jq13 = getRadioValuejq12();  
-        radio_button_value_jq14 = getRadioValuejq13();  
-        radio_button_value_jq15 = getRadioValuejq14();  
-        radio_button_value_jq16 = getRadioValuejq15();      
-        radio_button_value_jq17 = getRadioValuejq16();   
+        radio_button_value_jq10 = getRadioValuejq10();    
+        radio_button_value_jq11 = getRadioValuejq11();
+        radio_button_value_jq12 = getRadioValuejq12();  
+        radio_button_value_jq13 = getRadioValuejq13();  
+        radio_button_value_jq14 = getRadioValuejq14();  
+        radio_button_value_jq15 = getRadioValuejq15();  
+        radio_button_value_jq16 = getRadioValuejq16();      
+        radio_button_value_jq17 = getRadioValuejq17();   
 
-        radio_button_value_jq18 = getRadioValuejq17();    
-        radio_button_value_jq19 = getRadioValuejq18();
-        radio_button_value_jq20 = getRadioValuejq19();  
-        radio_button_value_jq21 = getRadioValuejq20();     
+        radio_button_value_jq18 = getRadioValuejq18();    
+        radio_button_value_jq19 = getRadioValuejq19();
+        radio_button_value_jq20 = getRadioValuejq20();  
+        radio_button_value_jq21 = getRadioValuejq21();     
 
    	  
 
@@ -220,10 +220,10 @@ $(document).ready( function() {
 		}
 		else{
 			 
-			$('#result-jq7 .right-ans').remove();
-			$('#result-jq7 .wrong-ans').remove();
-			$('#result-jq7 .show').remove();
-			$('#result-jq7').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
+			$('#result-jq8 .right-ans').remove();
+			$('#result-jq8 .wrong-ans').remove();
+			$('#result-jq8 .show').remove();
+			$('#result-jq8').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
 		}
 
 		// jq9
