@@ -85,3 +85,6 @@ label {
 blockquote {
   border-left: 5px solid #428bca;
 }
+.adjust-left {
+  padding-left: 20px;
+}

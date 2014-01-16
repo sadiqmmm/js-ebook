@@ -25,7 +25,7 @@ $(document).ready( function() {
     var radio_button_value_jq19 = getRadioValuejq19();
     var radio_button_value_jq20 = getRadioValuejq20();
     var radio_button_value_jq21 = getRadioValuejq21();
-    var checkbox_button_value_jq22 = getCheckboxValuejq22();
+     
  
 
 
@@ -58,8 +58,8 @@ $(document).ready( function() {
 		$("#see-video-jq18").hide(); 
 		$("#see-video-jq19").hide(); 
 		$("#see-video-jq20").hide(); 	 
+        $("#see-video-jq21").hide(); 
  
-
         $("html, body").animate({ scrollTop: $('#quiz-case-study-one').offset().top -60}, 600);
         event.preventDefault(); // Prevent from default submit button behaviour
 
@@ -86,6 +86,8 @@ $(document).ready( function() {
         radio_button_value_jq18 = getRadioValuejq18();
         radio_button_value_jq19 = getRadioValuejq19();  
         radio_button_value_jq20 = getRadioValuejq20();     
+
+   	    radio_button_value_jq21 = getRadioValuejq21();  
 
         // jq1
         if(radio_button_value_jq1 == 1) {
@@ -432,35 +434,8 @@ $(document).ready( function() {
 			$('#result-jq20 .show').remove();
 			$('#result-jq20').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
 		}
- 
-		// temp end
- 
-		$('.m_r_r').remove();
- 		  
-        $('#quiz-result-message').append( "<p class='m_r_r alert alert-success'><strong>"+ q_correct +" Correct Answer out of 20 &nbsp; &nbsp;</strong> </p>" );
-    });
-
-// End #quiz-case-study-one
-
-// Start #quiz-case-study-one-sub
-   $('#quiz-case-study-one-sub').submit( function( event ) {
-
-     	var q_total = 0;
-        var q_correct = 0;
-
-        $("#see-video-jq21").hide(); 
-		$("#see-video-jq22").hide(); 
- 
-
-        $("html, body").animate({ scrollTop: $('#quiz-result-message2').offset().top -60}, 600);
-        event.preventDefault(); // Prevent from default submit button behaviour
-
-    // will select the value
-    radio_button_value_jq21 = getRadioValuejq21();  
-    checkbox_button_value_jq22 = getCheckboxValuejq22();  
-
-
-    // jq21
+    	
+    	 // jq21
         if(radio_button_value_jq21 == 1) {
 			 q_correct++;
 
@@ -476,33 +451,16 @@ $(document).ready( function() {
 			$('#result-jq21 .show').remove();
 			$('#result-jq21').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
 		}
-
-		// jq22
-        if(checkbox_button_value_jq22 == 1) {
-			  q_correct++;
-
-			$('#result-jq22 .right-ans').remove();
-			$('#result-jq22 .wrong-ans').remove();
-			$('#result-jq22 .show').remove();
-			$('#result-jq22').append( "<p class='right-ans alert alert-success'><strong>Correct Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
-		}
-		else{
-			 
-			$('#result-jq22 .right-ans').remove();
-			$('#result-jq22 .wrong-ans').remove();
-			$('#result-jq22 .show').remove();
-			$('#result-jq22').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
-		}
-
-		// temp end 
-
-		$('.m_r_r2').remove();
+ 
+		// temp end
+ 
+		$('.m_r_r').remove();
  		  
-        $('#quiz-result-message2').append( "<p class='m_r_r2 alert alert-success'><strong>"+ q_correct +" Correct Answer out of 2 &nbsp; &nbsp;</strong> </p>" );
+        $('#quiz-result-message').append( "<p class='m_r_r alert alert-success'><strong>"+ q_correct +" Correct Answer out of 21 &nbsp; &nbsp;</strong> </p>" );
     });
-
-
-// End #quiz-case-study-one-sub
+ 
+// code end -->
+ 
 
 	$("#see-video-jq1").hide(); 
 	$("#see-video-jq2").hide(); 
@@ -527,7 +485,7 @@ $(document).ready( function() {
 	$("#see-video-jq19").hide(); 
 	$("#see-video-jq20").hide(); 
 	$("#see-video-jq21").hide(); 
-	$("#see-video-jq22").hide(); 
+ 
  
 	
 		 
@@ -674,12 +632,7 @@ $(document).ready( function() {
 			});
 		});
 
-		$('#result-jq22').on('click', '.show', function() {
-			$("#see-video-jq22").slideToggle('slow',function(){
-					$("html, body").animate({ scrollTop: $('#result-jq22').offset().top -60}, 600);
-       				 return false;
-			});
-		});		
+		 
 
 
 		// temp end
@@ -743,7 +696,7 @@ $(document).ready( function() {
 		 var ans4 = $('#f1q7_max_uterine').is(":checked");
 		 var ans5 = $('#f1q7_support_maternal').is(":checked");
  
-	    if( (ans1) && (ans2) && (!ans3) && (!ans4) && (ans5) ) {
+	    if( (ans1) && (ans2) && (ans3) && (ans4) && (ans5) ) {
 	    	//console.log("if" + ans1 + ans2 + ans3 + ans4 + ans5);
 	        return 1;
 	        
@@ -867,24 +820,7 @@ $(document).ready( function() {
 	        return 0;
 	    }
 	}
-	function getCheckboxValuejq22 () {
-	    var ans1 = $('#f1q22_max_uteroplacental').is(":checked");
-		var ans2 = $('#f1q22_max_oxygenation').is(":checked");
-		var ans3 = $('#f1q22_max_umbilical').is(":checked");
-		var ans4 = $('#f1q22_reduce_uterine').is(":checked");
-	    var ans5 = $('#f1q22_support_maternal').is(":checked");
  
-	    if( (ans1) && (ans2) && (ans3) && (!ans4) && (ans5) ) {
-	    	//console.log("if" + ans1 + ans2 + ans3 + ans4 + ans5);
-	        return 1;
-	        
-	    }
-	    else {
-	    // console.log("else" + ans1 + ans2 + ans3 + ans4 + ans5);
-	        return 0;
-	    }
-	}
-
 	// temp end
 
 
