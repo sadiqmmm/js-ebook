@@ -80,10 +80,7 @@ body { padding-top: 70px; }
   background: #F4F0E6;
   padding: 20px; 
 }
-video {
-  width: 100%    !important;
-  height: auto   !important;
-}
+ 
 .glyphicon {
   font-size: 24px;
 }
@@ -95,4 +92,19 @@ blockquote {
 }
 .adjust-left {
   padding-left: 20px;
+}
+ 
+ 
+
+ /* video js css Big Play Button (play button at start)
+--------------------------------------------------------------------------------
+Positioning of the play button in the center or other corners can be done more
+easily in the skin designer. http://designer.videojs.com/
+*/
+.vjs-default-skin div.vjs-big-play-button{
+  top: 50%!important; 
+  left: 50%!important; 
+  width:120px!important; 
+  height:80px!important; 
+  margin: -40px 0px 0px -60px!important; 
 }

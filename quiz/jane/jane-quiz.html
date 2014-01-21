@@ -14,6 +14,8 @@
       <script src="../../js/html5shiv.js"></script>
       <script src="../../js/respond.min.js"></script>
     <![endif]-->
+    <link href="../../css/videojs.css" rel="stylesheet">
+    <script src="../../js/video.js"></script>
   </head>
   <body>
 
@@ -79,7 +81,7 @@
         <div class="row featurette">
           <div class="col-md-1">  </div> 
           <div class="col-md-10">          
-            <video poster="../../img/video_play_thumbnail.jpg" controls>
+          <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" data-setup="{}">
               <source src="videos/jane-tracing-full-length/jane-tracing-full-length.mp4" type="video/mp4">
               <source src="videos/jane-tracing-full-length/jane-tracing-full-length.ogg" type="video/ogg">
               <source src="videos/jane-tracing-full-length/jane-tracing-full-length.webm" type="video/webm">
@@ -788,7 +790,7 @@
         <div class="row featurette">
           <div class="col-md-1">  </div> 
           <div class="col-md-10">
-           <video poster="../../img/video_play_thumbnail.jpg" controls>
+           <video id="example_video_2" class="video-js vjs-default-skin" controls preload="none" data-setup="{}">
               <source src="videos/jane-tracing-0946-1000/jane-tracing-0946-1000.mp4" type="video/mp4">
               <source src="videos/jane-tracing-0946-1000/jane-tracing-0946-1000.ogg" type="video/ogg">
                <source src="videos/jane-tracing-0946-1000/jane-tracing-0946-1000.webm" type="video/webm">
@@ -1012,5 +1014,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../../js/bootstrap.min.js"></script>
     <script src="js/jane-one-quiz-custom.js"></script>
+    <script src="../../js/two-video-custom.js"></script>
   </body>
 </html>
