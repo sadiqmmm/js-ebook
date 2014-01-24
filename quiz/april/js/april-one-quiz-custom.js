@@ -309,7 +309,7 @@ $(document).ready( function() {
 		else{
 			 
 			$('#quiz3-result-jq13 .right-ans').remove();
-			$('#quiz3-result-jq13.wrong-ans').remove();
+			$('#quiz3-result-jq13 .wrong-ans').remove();
 			$('#quiz3-result-jq13 .show').remove();
 			$('#quiz3-result-jq13').append( "<p class='wrong-ans alert alert-danger'><strong>Wrong Answer &nbsp; &nbsp;</strong><span class='show'>Click to [Show / Hide] answer with explanation</span></p>" );
 		}
