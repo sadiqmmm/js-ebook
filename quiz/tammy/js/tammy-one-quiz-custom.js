@@ -1,5 +1,30 @@
 $(document).ready( function() {
-// release final version 
+	
+	// Once the document is loadeded hide the quiz
+	$("#quiz2-see-video-jq1").hide(); 
+	$("#quiz2-see-video-jq2").hide(); 
+	$("#quiz2-see-video-jq3").hide(); 
+	$("#quiz2-see-video-jq4").hide(); 
+	$("#quiz2-see-video-jq5").hide(); 
+	$("#quiz2-see-video-jq6").hide(); 
+	$("#quiz2-see-video-jq7").hide(); 
+	$("#quiz2-see-video-jq8").hide(); 
+	$("#quiz2-see-video-jq9").hide(); 
+	
+	$("#quiz2-see-video-jq10").hide(); 
+	$("#quiz2-see-video-jq11").hide(); 
+	$("#quiz2-see-video-jq12").hide(); 
+	$("#quiz2-see-video-jq13").hide(); 
+	$("#quiz2-see-video-jq14").hide(); 
+	$("#quiz2-see-video-jq15").hide(); 
+	$("#quiz2-see-video-jq16").hide(); 
+	$("#quiz2-see-video-jq17").hide(); 
+	
+	$("#quiz2-see-video-jq18").hide(); 
+	$("#quiz2-see-video-jq19").hide(); 
+	$("#quiz2-see-video-jq20").hide(); 
+	$("#quiz2-see-video-jq21").hide(); 
+
     // Value when you load the page for the first time
     // Will return 0 the first time it's called
     var quiz2_radio_button_value_jq1 = quiz2_getRadioValuejq1();
@@ -461,34 +486,6 @@ $(document).ready( function() {
  
 // code end -->
  
-
-	$("#quiz2-see-video-jq1").hide(); 
-	$("#quiz2-see-video-jq2").hide(); 
-	$("#quiz2-see-video-jq3").hide(); 
-	$("#quiz2-see-video-jq4").hide(); 
-	$("#quiz2-see-video-jq5").hide(); 
-	$("#quiz2-see-video-jq6").hide(); 
-	$("#quiz2-see-video-jq7").hide(); 
-	$("#quiz2-see-video-jq8").hide(); 
-	$("#quiz2-see-video-jq9").hide(); 
-	
-	$("#quiz2-see-video-jq10").hide(); 
-	$("#quiz2-see-video-jq11").hide(); 
-	$("#quiz2-see-video-jq12").hide(); 
-	$("#quiz2-see-video-jq13").hide(); 
-	$("#quiz2-see-video-jq14").hide(); 
-	$("#quiz2-see-video-jq15").hide(); 
-	$("#quiz2-see-video-jq16").hide(); 
-	$("#quiz2-see-video-jq17").hide(); 
-	
-	$("#quiz2-see-video-jq18").hide(); 
-	$("#quiz2-see-video-jq19").hide(); 
-	$("#quiz2-see-video-jq20").hide(); 
-	$("#quiz2-see-video-jq21").hide(); 
-	
- 
- 
-	
 		 
 		$('#quiz2-result-jq1').on('click', '.show', function() {
 			$("#quiz2-see-video-jq1").slideToggle('slow',function(){
