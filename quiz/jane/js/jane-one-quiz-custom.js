@@ -1,4 +1,30 @@
 $(document).ready( function() {
+
+	// Once the document is loadeded hide the quiz
+	$("#see-video-jq1").hide(); 
+	$("#see-video-jq2").hide(); 
+	$("#see-video-jq3").hide(); 
+	$("#see-video-jq4").hide(); 
+	$("#see-video-jq5").hide(); 
+	$("#see-video-jq6").hide(); 
+	$("#see-video-jq7").hide(); 
+	$("#see-video-jq8").hide(); 
+	
+	$("#see-video-jq9").hide(); 
+	$("#see-video-jq10").hide(); 
+	$("#see-video-jq11").hide(); 
+	$("#see-video-jq12").hide(); 
+	$("#see-video-jq13").hide(); 
+	$("#see-video-jq14").hide(); 
+	$("#see-video-jq15").hide(); 
+	$("#see-video-jq16").hide(); 
+	
+	$("#see-video-jq17").hide(); 
+	$("#see-video-jq18").hide(); 
+	$("#see-video-jq19").hide(); 
+	$("#see-video-jq20").hide(); 
+	$("#see-video-jq21").hide(); 
+	$("#see-video-jq22").hide(); 
  
     // Value when you load the page for the first time
     // Will return 0 the first time it's called
@@ -504,30 +530,7 @@ $(document).ready( function() {
 
 // End #quiz-case-study-one-sub
 
-	$("#see-video-jq1").hide(); 
-	$("#see-video-jq2").hide(); 
-	$("#see-video-jq3").hide(); 
-	$("#see-video-jq4").hide(); 
-	$("#see-video-jq5").hide(); 
-	$("#see-video-jq6").hide(); 
-	$("#see-video-jq7").hide(); 
-	$("#see-video-jq8").hide(); 
-	
-	$("#see-video-jq9").hide(); 
-	$("#see-video-jq10").hide(); 
-	$("#see-video-jq11").hide(); 
-	$("#see-video-jq12").hide(); 
-	$("#see-video-jq13").hide(); 
-	$("#see-video-jq14").hide(); 
-	$("#see-video-jq15").hide(); 
-	$("#see-video-jq16").hide(); 
-	
-	$("#see-video-jq17").hide(); 
-	$("#see-video-jq18").hide(); 
-	$("#see-video-jq19").hide(); 
-	$("#see-video-jq20").hide(); 
-	$("#see-video-jq21").hide(); 
-	$("#see-video-jq22").hide(); 
+
  
 	
 		 
