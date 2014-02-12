@@ -1,5 +1,4 @@
-$(document).ready( function() {
-    
+$(document).ready( function() {    
     // Once the document is loadeded hide the quiz
     $("#quiz4-see-video-jq1").hide(); 
     $("#quiz4-see-video-jq2").hide(); 
@@ -47,8 +46,7 @@ $(document).ready( function() {
     var quiz4_radio_button_value_jq18 = quiz4_getRadioValuejq18();
     var quiz4_radio_button_value_jq19 = quiz4_getRadioValuejq19();
     var quiz4_radio_button_value_jq20 = quiz4_getRadioValuejq20();
-    var quiz4_radio_button_value_jq21 = quiz4_getRadioValuejq21();
- 
+    var quiz4_radio_button_value_jq21 = quiz4_getRadioValuejq21(); 
 
    // start #quiz-case-study-one
 
@@ -108,9 +106,7 @@ $(document).ready( function() {
         quiz4_radio_button_value_jq18 = quiz4_getRadioValuejq18();    
         quiz4_radio_button_value_jq19 = quiz4_getRadioValuejq19();
         quiz4_radio_button_value_jq20 = quiz4_getRadioValuejq20();  
-        quiz4_radio_button_value_jq21 = quiz4_getRadioValuejq21();     
-
-      
+        quiz4_radio_button_value_jq21 = quiz4_getRadioValuejq21();      
 
         // jq1
         if(quiz4_radio_button_value_jq1 == 1) {
